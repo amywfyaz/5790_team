@@ -19,7 +19,7 @@ def add_intercept(x: np.ndarray) -> np.ndarray:
 
 def split_sites(
     df: pd.DataFrame,
-    n_sites: int = 3,
+    n_sites: int = 4,
     random_state: int = 88,
     stratify_col: str = "label",
 ) -> List[pd.DataFrame]:
@@ -44,7 +44,7 @@ class LocalSite:
     site_id: int
     data: pd.DataFrame
     feature_cols: Sequence[str]
-    label_col: str = "label"
+    label_col: str
 
     def __post_init__(self) -> None:
         self.x = add_intercept(self.data.loc[:, self.feature_cols].to_numpy(dtype=float))
@@ -67,14 +67,11 @@ class LocalSite:
 
         return xtwx, xtwz
 
-    def predict_proba(self, beta: np.ndarray) -> np.ndarray:
-        return sigmoid(self.x @ beta)
-
 
 @dataclass
 class FederatedLogisticRegression:
     max_iter: int = 50
-    tol: float = 1e-6
+    tol: float = 1e-8
     l2: float = 1e-6
 
     def fit(self, sites: Sequence[LocalSite]) -> "FederatedLogisticRegression":
@@ -96,13 +93,11 @@ class FederatedLogisticRegression:
             beta = beta_new
 
             y_true_all = np.concatenate([site.y for site in sites])
-            y_prob_all = np.concatenate([site.predict_proba(beta) for site in sites])
-            loss = log_loss(y_true_all, y_prob_all)
-
+            y_prob_all = np.concatenate([sigmoid(site.x @ beta) for site in sites])
             history.append(
                 {
                     "iter": iteration,
-                    "log_loss": loss,
+                    "log_loss": log_loss(y_true_all, y_prob_all),
                     "step_norm": step_norm,
                 }
             )
@@ -110,21 +105,18 @@ class FederatedLogisticRegression:
             if step_norm < self.tol:
                 break
 
-        self.coef_ = beta[1:]
-        self.intercept_ = beta[0]
         self.beta_ = beta
+        self.intercept_ = beta[0]
+        self.coef_ = beta[1:]
         self.history_ = pd.DataFrame(history)
         self.n_iter_ = len(history)
         return self
 
-    def predict_proba(self, x: np.ndarray | pd.DataFrame) -> np.ndarray:
+    def predict_proba(self, x: pd.DataFrame | np.ndarray) -> np.ndarray:
         if isinstance(x, pd.DataFrame):
             x = x.to_numpy(dtype=float)
         x_aug = add_intercept(np.asarray(x, dtype=float))
         return sigmoid(x_aug @ self.beta_)
-
-    def predict(self, x: np.ndarray | pd.DataFrame, threshold: float = 0.5) -> np.ndarray:
-        return (self.predict_proba(x) >= threshold).astype(int)
 
 
 def evaluate_predictions(y_true: np.ndarray, y_prob: np.ndarray, threshold: float = 0.5) -> dict:
@@ -137,12 +129,7 @@ def evaluate_predictions(y_true: np.ndarray, y_prob: np.ndarray, threshold: floa
     }
 
 
-def calibration_table(
-    y_true: Sequence[float],
-    y_prob: Sequence[float],
-    model_name: str,
-    n_bins: int = 10,
-) -> pd.DataFrame:
+def calibration_table(y_true, y_prob, model_name: str, n_bins: int = 10) -> pd.DataFrame:
     df = pd.DataFrame({"y": y_true, "p": y_prob}).copy()
     df["bin"] = pd.qcut(df["p"], q=n_bins, duplicates="drop")
     calib = (
