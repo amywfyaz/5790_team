@@ -1,0 +1,48 @@
+{
+  "base_dir": "/Users/xiyuehuang/Desktop/CBB 5790",
+  "data_path": "/Users/xiyuehuang/Desktop/CBB 5790/multi_PRS_dataset.csv",
+  "out_dir": "/Users/xiyuehuang/Desktop/CBB 5790/outputs_glore_blockchain",
+  "figures_dir": "/Users/xiyuehuang/Desktop/CBB 5790/outputs_glore_blockchain/figures",
+  "features_used": [
+    "CAD_PRS_z",
+    "BMI_PRS_z",
+    "HTN_PRS_z"
+  ],
+  "sites": [
+    "SiteA",
+    "SiteB",
+    "SiteC"
+  ],
+  "train_frac_per_site": 0.8,
+  "baseline_models_with_runtime_csv": "/Users/xiyuehuang/Desktop/CBB 5790/outputs_glore_blockchain/baseline_models_with_runtime.csv",
+  "glore_total_runtime_s": 0.08906224998645484,
+  "glore_final_hash_sha256": "a82be1da66e87d8fb073ca1f57d0008159453884dd542a4cb11a786ad8ad4805",
+  "glore_final_bytes32_modelHash": "0xa82be1da66e87d8fb073ca1f57d0008159453884dd542a4cb11a786ad8ad4805",
+  "glore_final_per_site_test": {
+    "SiteA": {
+      "auroc": 0.8213992734091176,
+      "ece_10bin": 0.07614101272597931,
+      "pos_rate": 0.24766355140186916,
+      "avg_prob": 0.27889787656173687
+    },
+    "SiteB": {
+      "auroc": 0.812797619047619,
+      "ece_10bin": 0.05862167510039446,
+      "pos_rate": 0.32710280373831774,
+      "avg_prob": 0.28486167471609386
+    },
+    "SiteC": {
+      "auroc": 0.815625,
+      "ece_10bin": 0.045775109350833745,
+      "pos_rate": 0.2523364485981308,
+      "avg_prob": 0.28511195496180813
+    }
+  },
+  "glore_final_pooled_test": {
+    "auroc": 0.814336917562724,
+    "ece_10bin": 0.03430775997260634,
+    "pos_rate": 0.2757009345794392,
+    "avg_prob": 0.2829571687465463
+  },
+  "blockchain_payloads_jsonl": "/Users/xiyuehuang/Desktop/CBB 5790/outputs_glore_blockchain/chain_payloads.jsonl"
+}
