@@ -25,6 +25,7 @@ from __future__ import annotations
 import json
 import os
 import sys
+import time
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -297,8 +298,10 @@ def run_fedavg(
     d = sites[0][0].shape[1]
     gm = _make_model(kind, d)
     history = []
+    t_start = time.perf_counter()
 
     for r in range(1, rounds + 1):
+        t_round = time.perf_counter()
         gp = gm.get_params()
         locals_, ns = [], []
         for Xs, ys in sites:
@@ -317,7 +320,16 @@ def run_fedavg(
             agg = add_noise(agg, seed=SEED + r)
         gm.set_params(agg)
 
-        history.append({"round": r, **compute_metrics(y_te, gm.predict_proba(X_te))})
+        elapsed_round = time.perf_counter() - t_round
+        history.append({
+            "round": r,
+            "round_time_sec": round(elapsed_round, 4),
+            **compute_metrics(y_te, gm.predict_proba(X_te)),
+        })
+
+    total_time = time.perf_counter() - t_start
+    for h in history:
+        h["total_time_sec"] = round(total_time, 4)
     return gm, history
 
 
@@ -329,8 +341,10 @@ def run_fedprox(
     d = sites[0][0].shape[1]
     gm = _make_model(kind, d)
     history = []
+    t_start = time.perf_counter()
 
     for r in range(1, rounds + 1):
+        t_round = time.perf_counter()
         gp = gm.get_params()
         ref = gm.get_ref() if kind == "mlp" else gp
         locals_, ns = [], []
@@ -343,7 +357,16 @@ def run_fedprox(
             ns.append(len(ys))
 
         gm.set_params(weighted_avg(locals_, ns))
-        history.append({"round": r, **compute_metrics(y_te, gm.predict_proba(X_te))})
+        elapsed_round = time.perf_counter() - t_round
+        history.append({
+            "round": r,
+            "round_time_sec": round(elapsed_round, 4),
+            **compute_metrics(y_te, gm.predict_proba(X_te)),
+        })
+
+    total_time = time.perf_counter() - t_start
+    for h in history:
+        h["total_time_sec"] = round(total_time, 4)
     return gm, history
 
 
@@ -353,11 +376,21 @@ def run_local(
 ) -> List[dict]:
     d = sites[0][0].shape[1]
     results = []
+    t_start = time.perf_counter()
     for i, (Xs, ys) in enumerate(sites):
+        t_site = time.perf_counter()
         m = _make_model(kind, d)
         for _ in range(total_epochs):
             m.step(Xs, ys)
-        results.append({"site": i + 1, **compute_metrics(y_te, m.predict_proba(X_te))})
+        site_time = time.perf_counter() - t_site
+        results.append({
+            "site": i + 1,
+            "site_time_sec": round(site_time, 4),
+            **compute_metrics(y_te, m.predict_proba(X_te)),
+        })
+    total_time = time.perf_counter() - t_start
+    for r in results:
+        r["total_time_sec"] = round(total_time, 4)
     return results
 
 
@@ -365,10 +398,15 @@ def run_centralized(
     X_tr: np.ndarray, y_tr: np.ndarray, X_te: np.ndarray, y_te: np.ndarray,
     kind: str = "mlp", total_epochs: int = FL_ROUNDS * LOCAL_EPOCHS,
 ) -> dict:
+    t_start = time.perf_counter()
     m = _make_model(kind, X_tr.shape[1])
     for _ in range(total_epochs):
         m.step(X_tr, y_tr)
-    return compute_metrics(y_te, m.predict_proba(X_te))
+    total_time = time.perf_counter() - t_start
+    return {
+        "total_time_sec": round(total_time, 4),
+        **compute_metrics(y_te, m.predict_proba(X_te)),
+    }
 
 
 def run_glore(
@@ -473,26 +511,28 @@ def main() -> None:
 
             # local baselines
             loc = run_local(site_data, X_te, y_te, kind)
+            loc_time = loc[0].get("total_time_sec", 0)
             for r in loc:
-                print(f"      Local Site {r['site']}: AUROC={r['AUROC']:.4f}  Brier={r['Brier']:.4f}")
+                print(f"      Local Site {r['site']}: AUROC={r['AUROC']:.4f}  Brier={r['Brier']:.4f}  ({r['site_time_sec']:.2f}s)")
+            print(f"      Local total runtime: {loc_time:.2f}s")
             split_res[f"local_{kind}"] = loc
 
             # centralized
             cen = run_centralized(X_tr, y_tr, X_te, y_te, kind)
-            print(f"      Centralized  : AUROC={cen['AUROC']:.4f}  Brier={cen['Brier']:.4f}")
+            print(f"      Centralized  : AUROC={cen['AUROC']:.4f}  Brier={cen['Brier']:.4f}  ({cen['total_time_sec']:.2f}s)")
             split_res[f"central_{kind}"] = cen
 
             # FedAvg (save full history)
             _, h_fa = run_fedavg(site_data, X_te, y_te, kind)
             fa = h_fa[-1]
-            print(f"      FedAvg       : AUROC={fa['AUROC']:.4f}  Brier={fa['Brier']:.4f}")
+            print(f"      FedAvg       : AUROC={fa['AUROC']:.4f}  Brier={fa['Brier']:.4f}  ({fa['total_time_sec']:.2f}s)")
             split_res[f"fedavg_{kind}"] = fa
             split_res[f"fedavg_{kind}_history"] = h_fa
 
             # FedProx (save full history)
             _, h_fp = run_fedprox(site_data, X_te, y_te, kind)
             fp = h_fp[-1]
-            print(f"      FedProx(mu={FEDPROX_MU}): AUROC={fp['AUROC']:.4f}  Brier={fp['Brier']:.4f}")
+            print(f"      FedProx(mu={FEDPROX_MU}): AUROC={fp['AUROC']:.4f}  Brier={fp['Brier']:.4f}  ({fp['total_time_sec']:.2f}s)")
             split_res[f"fedprox_{kind}"] = fp
             split_res[f"fedprox_{kind}_history"] = h_fp
 
@@ -500,7 +540,7 @@ def main() -> None:
             _, h_dp = run_fedavg(site_data, X_te, y_te, kind, use_dp=True)
             dp = h_dp[-1]
             eps = estimate_epsilon(DP_NOISE_MULT, FL_ROUNDS)
-            print(f"      FedAvg+DP(eps~{eps:.1f}): AUROC={dp['AUROC']:.4f}  Brier={dp['Brier']:.4f}")
+            print(f"      FedAvg+DP(eps~{eps:.1f}): AUROC={dp['AUROC']:.4f}  Brier={dp['Brier']:.4f}  ({dp['total_time_sec']:.2f}s)")
             split_res[f"fedavg_dp_{kind}"] = {**dp, "epsilon": eps}
             split_res[f"fedavg_dp_{kind}_history"] = h_dp
 
@@ -567,10 +607,13 @@ def main() -> None:
             continue
         if isinstance(v, list):
             avg = {m: np.mean([r[m] for r in v]) for m in ("AUROC", "Brier", "ECE", "Accuracy")}
+            rt = v[0].get("total_time_sec", float("nan"))
         else:
             avg = v
-        rows.append({"Method": name, **{m: avg.get(m, float("nan"))
-                                         for m in ("AUROC", "Brier", "ECE", "Accuracy")}})
+            rt = v.get("total_time_sec", float("nan"))
+        rows.append({"Method": name,
+                      **{m: avg.get(m, float("nan")) for m in ("AUROC", "Brier", "ECE", "Accuracy")},
+                      "Runtime(s)": rt})
 
     summary = pd.DataFrame(rows)
     print(summary.to_string(index=False, float_format="%.4f"))
