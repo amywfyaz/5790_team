@@ -3,47 +3,47 @@
     "local_logreg": [
       {
         "site": 1,
-        "site_time_sec": 0.0066,
+        "site_time_sec": 0.0062,
         "AUROC": 0.7696937821411874,
         "Brier": 0.18503072501401996,
         "ECE": 0.12534951712744052,
         "Accuracy": 0.76125,
         "LogLoss": 0.5556367443938838,
-        "total_time_sec": 0.0404
+        "total_time_sec": 0.0401
       },
       {
         "site": 2,
-        "site_time_sec": 0.0049,
+        "site_time_sec": 0.0052,
         "AUROC": 0.7673051075268817,
         "Brier": 0.18893008560765298,
         "ECE": 0.13055393250758096,
         "Accuracy": 0.75625,
         "LogLoss": 0.5648575839628492,
-        "total_time_sec": 0.0404
+        "total_time_sec": 0.0401
       },
       {
         "site": 3,
-        "site_time_sec": 0.005,
+        "site_time_sec": 0.0051,
         "AUROC": 0.7714396330060777,
         "Brier": 0.1883970031031968,
         "ECE": 0.13076152355453813,
         "Accuracy": 0.75625,
         "LogLoss": 0.5637397782756486,
-        "total_time_sec": 0.0404
+        "total_time_sec": 0.0401
       },
       {
         "site": 4,
-        "site_time_sec": 0.005,
+        "site_time_sec": 0.0051,
         "AUROC": 0.7739305750350631,
         "Brier": 0.1845200835159492,
         "ECE": 0.11893019409819634,
         "Accuracy": 0.75375,
         "LogLoss": 0.554263401091849,
-        "total_time_sec": 0.0404
+        "total_time_sec": 0.0401
       }
     ],
     "central_logreg": {
-      "total_time_sec": 0.0081,
+      "total_time_sec": 0.0083,
       "AUROC": 0.7728859864422628,
       "Brier": 0.18637052882715233,
       "ECE": 0.12727802342205968,
@@ -58,7 +58,7 @@
       "ECE": 0.1272837402374609,
       "Accuracy": 0.7575,
       "LogLoss": 0.5589649164785345,
-      "total_time_sec": 0.1363
+      "total_time_sec": 0.1351
     },
     "fedavg_logreg_history": [
       {
@@ -69,17 +69,17 @@
         "ECE": 0.2511142118629564,
         "Accuracy": 0.7575,
         "LogLoss": 0.6846221748936927,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 2,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7730101683029452,
         "Brier": 0.24169983465154027,
         "ECE": 0.24489419702839454,
         "Accuracy": 0.7575,
         "LogLoss": 0.6765366551345635,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 3,
@@ -89,7 +89,7 @@
         "ECE": 0.23883975071524874,
         "Accuracy": 0.7575,
         "LogLoss": 0.6688676953506573,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 4,
@@ -99,7 +99,7 @@
         "ECE": 0.23294995465253107,
         "Accuracy": 0.7575,
         "LogLoss": 0.6615932140796515,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 5,
@@ -109,17 +109,17 @@
         "ECE": 0.22722326677561552,
         "Accuracy": 0.7575,
         "LogLoss": 0.6546920170576341,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 6,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7731343501636279,
         "Brier": 0.22760592219690565,
         "ECE": 0.22165760723995956,
         "Accuracy": 0.7575,
         "LogLoss": 0.6481438244882525,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 7,
@@ -129,7 +129,7 @@
         "ECE": 0.21750040479116983,
         "Accuracy": 0.75875,
         "LogLoss": 0.6419292848467552,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 8,
@@ -139,27 +139,27 @@
         "ECE": 0.21224861136640888,
         "Accuracy": 0.75875,
         "LogLoss": 0.6360299771777576,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 9,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7731197405329593,
         "Brier": 0.2189429129644934,
         "ECE": 0.20714912241974517,
         "Accuracy": 0.75875,
         "LogLoss": 0.6304284037517577,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 10,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7731051309022907,
         "Brier": 0.21637069443374835,
         "ECE": 0.20219846103387054,
         "Accuracy": 0.75875,
         "LogLoss": 0.6251079748113616,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 11,
@@ -169,7 +169,7 @@
         "ECE": 0.19739295657445186,
         "Accuracy": 0.75875,
         "LogLoss": 0.6200529869791073,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 12,
@@ -179,17 +179,17 @@
         "ECE": 0.19272879441995808,
         "Accuracy": 0.75875,
         "LogLoss": 0.6152485967272928,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 13,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7730905212716224,
         "Brier": 0.20948331575088688,
         "ECE": 0.18695205792453637,
         "Accuracy": 0.7575,
         "LogLoss": 0.610680790136037,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 14,
@@ -199,7 +199,7 @@
         "ECE": 0.1825587454792545,
         "Accuracy": 0.7575,
         "LogLoss": 0.6063363499962195,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 15,
@@ -209,7 +209,7 @@
         "ECE": 0.17829487662289983,
         "Accuracy": 0.7575,
         "LogLoss": 0.6022028211539587,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 16,
@@ -219,7 +219,7 @@
         "ECE": 0.1741564436365175,
         "Accuracy": 0.7575,
         "LogLoss": 0.5982684748460984,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 17,
@@ -229,37 +229,37 @@
         "ECE": 0.17013946075354752,
         "Accuracy": 0.7575,
         "LogLoss": 0.5945222726435317,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 18,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7729955586722768,
         "Brier": 0.20032597205774508,
         "ECE": 0.16623998388933303,
         "Accuracy": 0.7575,
         "LogLoss": 0.5909538305017239,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 19,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7729590345956054,
         "Brier": 0.19878426174153419,
         "ECE": 0.1624541269244088,
         "Accuracy": 0.7575,
         "LogLoss": 0.5875533833153597,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 20,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7729809490416083,
         "Brier": 0.19732598502278084,
         "ECE": 0.1587780749521094,
         "Accuracy": 0.7575,
         "LogLoss": 0.5843117502859098,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 21,
@@ -269,7 +269,7 @@
         "ECE": 0.15520809487132212,
         "Accuracy": 0.7575,
         "LogLoss": 0.581220301336056,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 22,
@@ -279,7 +279,7 @@
         "ECE": 0.1517405436731946,
         "Accuracy": 0.7575,
         "LogLoss": 0.5782709247420702,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 23,
@@ -289,17 +289,17 @@
         "ECE": 0.14837187473790084,
         "Accuracy": 0.7575,
         "LogLoss": 0.5754559961031042,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 24,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7729517297802713,
         "Brier": 0.19223186432403316,
         "ECE": 0.1450986424253326,
         "Accuracy": 0.7575,
         "LogLoss": 0.572768348723592,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 25,
@@ -309,7 +309,7 @@
         "ECE": 0.14191750521263205,
         "Accuracy": 0.7575,
         "LogLoss": 0.5702012454503262,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 26,
@@ -319,7 +319,7 @@
         "ECE": 0.13882522760234386,
         "Accuracy": 0.7575,
         "LogLoss": 0.5677483519780886,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 27,
@@ -329,7 +329,7 @@
         "ECE": 0.13581868099795866,
         "Accuracy": 0.7575,
         "LogLoss": 0.5654037116159035,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 28,
@@ -339,7 +339,7 @@
         "ECE": 0.13289484371890348,
         "Accuracy": 0.7575,
         "LogLoss": 0.5631617214891308,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 29,
@@ -349,7 +349,7 @@
         "ECE": 0.1300508003046444,
         "Accuracy": 0.7575,
         "LogLoss": 0.5610171101398396,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       },
       {
         "round": 30,
@@ -359,7 +359,7 @@
         "ECE": 0.1272837402374609,
         "Accuracy": 0.7575,
         "LogLoss": 0.5589649164785345,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1351
       }
     ],
     "fedprox_logreg": {
@@ -370,7 +370,7 @@
       "ECE": 0.1276149698748219,
       "Accuracy": 0.7575,
       "LogLoss": 0.5592087976933954,
-      "total_time_sec": 0.1362
+      "total_time_sec": 0.1396
     },
     "fedprox_logreg_history": [
       {
@@ -381,7 +381,7 @@
         "ECE": 0.25113969687109206,
         "Accuracy": 0.7575,
         "LogLoss": 0.6846557441689588,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 2,
@@ -391,7 +391,7 @@
         "ECE": 0.2449438286900831,
         "Accuracy": 0.7575,
         "LogLoss": 0.6766003394495778,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 3,
@@ -401,7 +401,7 @@
         "ECE": 0.23891219731415836,
         "Accuracy": 0.7575,
         "LogLoss": 0.6689583121423469,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 4,
@@ -411,7 +411,7 @@
         "ECE": 0.23304390192157667,
         "Accuracy": 0.7575,
         "LogLoss": 0.6617078386096239,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 5,
@@ -421,7 +421,7 @@
         "ECE": 0.22733742693530784,
         "Accuracy": 0.7575,
         "LogLoss": 0.654827967847159,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 6,
@@ -431,7 +431,7 @@
         "ECE": 0.22179072636816893,
         "Accuracy": 0.7575,
         "LogLoss": 0.6482986483858286,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 7,
@@ -441,7 +441,7 @@
         "ECE": 0.2176512730156093,
         "Accuracy": 0.75875,
         "LogLoss": 0.6421007420225632,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 8,
@@ -451,17 +451,17 @@
         "ECE": 0.21241605620699017,
         "Accuracy": 0.75875,
         "LogLoss": 0.6362160262858104,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 9,
-        "round_time_sec": 0.0009,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7731197405329593,
         "Brier": 0.2190393141833141,
         "ECE": 0.20733202138291057,
         "Accuracy": 0.75875,
         "LogLoss": 0.6306271874509065,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 10,
@@ -471,7 +471,7 @@
         "ECE": 0.20239574111854508,
         "Accuracy": 0.75875,
         "LogLoss": 0.6253178057915975,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 11,
@@ -481,7 +481,7 @@
         "ECE": 0.19760359551899578,
         "Accuracy": 0.75875,
         "LogLoss": 0.6202723346004126,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 12,
@@ -491,7 +491,7 @@
         "ECE": 0.1929518211807409,
         "Accuracy": 0.75875,
         "LogLoss": 0.6154760743447528,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 13,
@@ -501,7 +501,7 @@
         "ECE": 0.18718655384248656,
         "Accuracy": 0.7575,
         "LogLoss": 0.6109151431568859,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 14,
@@ -511,7 +511,7 @@
         "ECE": 0.182803839755628,
         "Accuracy": 0.7575,
         "LogLoss": 0.6065764446915657,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 15,
@@ -521,17 +521,17 @@
         "ECE": 0.1785497489231205,
         "Accuracy": 0.7575,
         "LogLoss": 0.6024476342296282,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 16,
-        "round_time_sec": 0.0008,
+        "round_time_sec": 0.0009,
         "AUROC": 0.773083216456288,
         "Brier": 0.2037961564234127,
         "ECE": 0.17442032151917045,
         "Accuracy": 0.7575,
         "LogLoss": 0.5985170837627819,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 17,
@@ -541,7 +541,7 @@
         "ECE": 0.17041161802815302,
         "Accuracy": 0.7575,
         "LogLoss": 0.5947738466656517,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 18,
@@ -551,7 +551,7 @@
         "ECE": 0.16651973880172224,
         "Accuracy": 0.7575,
         "LogLoss": 0.5912076224466059,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 19,
@@ -561,7 +561,7 @@
         "ECE": 0.16274084022603336,
         "Accuracy": 0.7575,
         "LogLoss": 0.5878087219688709,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 20,
@@ -571,7 +571,7 @@
         "ECE": 0.15907114789990012,
         "Accuracy": 0.7575,
         "LogLoss": 0.5845680334472769,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 21,
@@ -581,7 +581,7 @@
         "ECE": 0.1555069671961642,
         "Accuracy": 0.7575,
         "LogLoss": 0.5814769894526762,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 22,
@@ -591,7 +591,7 @@
         "ECE": 0.15204469154765937,
         "Accuracy": 0.7575,
         "LogLoss": 0.5785275350944551,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 23,
@@ -601,7 +601,7 @@
         "ECE": 0.1486808087675005,
         "Accuracy": 0.7575,
         "LogLoss": 0.5757120975003418,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 24,
@@ -611,27 +611,27 @@
         "ECE": 0.14541190568215046,
         "Accuracy": 0.7575,
         "LogLoss": 0.5730235566706555,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 25,
-        "round_time_sec": 0.0008,
+        "round_time_sec": 0.0009,
         "AUROC": 0.7730028634876109,
         "Brier": 0.1912311615158889,
         "ECE": 0.14223467132562745,
         "Accuracy": 0.7575,
         "LogLoss": 0.5704552177499871,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 26,
-        "round_time_sec": 0.0008,
+        "round_time_sec": 0.001,
         "AUROC": 0.7730247779336139,
         "Brier": 0.19017723018878463,
         "ECE": 0.13914589891483867,
         "Accuracy": 0.7575,
         "LogLoss": 0.5680007847319601,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 27,
@@ -641,7 +641,7 @@
         "ECE": 0.13614248679968452,
         "Accuracy": 0.7575,
         "LogLoss": 0.5656543355911332,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 28,
@@ -651,7 +651,7 @@
         "ECE": 0.1332214385574336,
         "Accuracy": 0.7575,
         "LogLoss": 0.5634102988193525,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 29,
@@ -661,7 +661,7 @@
         "ECE": 0.13037986237897004,
         "Accuracy": 0.7575,
         "LogLoss": 0.5612634313311502,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       },
       {
         "round": 30,
@@ -671,7 +671,7 @@
         "ECE": 0.1276149698748219,
         "Accuracy": 0.7575,
         "LogLoss": 0.5592087976933954,
-        "total_time_sec": 0.1362
+        "total_time_sec": 0.1396
       }
     ],
     "fedavg_dp_logreg": {
@@ -682,29 +682,29 @@
       "ECE": 0.2541758989938076,
       "Accuracy": 0.66125,
       "LogLoss": 1.2771971510134643,
-      "total_time_sec": 0.1461,
+      "total_time_sec": 0.1443,
       "epsilon": 53.072182580974236
     },
     "fedavg_dp_logreg_history": [
       {
         "round": 1,
-        "round_time_sec": 0.0019,
+        "round_time_sec": 0.0016,
         "AUROC": 0.4750540556334736,
         "Brier": 0.23363661993833187,
         "ECE": 0.09976571404030238,
         "Accuracy": 0.63625,
         "LogLoss": 0.6608814074758541,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 2,
-        "round_time_sec": 0.001,
+        "round_time_sec": 0.0009,
         "AUROC": 0.6889244389901823,
         "Brier": 0.23953286632503454,
         "ECE": 0.20946402429025562,
         "Accuracy": 0.5875,
         "LogLoss": 0.6736285324758677,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 3,
@@ -714,7 +714,7 @@
         "ECE": 0.2987870003865488,
         "Accuracy": 0.46125,
         "LogLoss": 0.7643318498084747,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 4,
@@ -724,7 +724,7 @@
         "ECE": 0.3711101896776899,
         "Accuracy": 0.3925,
         "LogLoss": 0.9281718550854808,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 5,
@@ -734,7 +734,7 @@
         "ECE": 0.3142880179154918,
         "Accuracy": 0.45,
         "LogLoss": 0.9628524636319795,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 6,
@@ -744,7 +744,7 @@
         "ECE": 0.3813424152919368,
         "Accuracy": 0.4075,
         "LogLoss": 1.2007950725977556,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 7,
@@ -754,7 +754,7 @@
         "ECE": 0.3111723600184789,
         "Accuracy": 0.5225,
         "LogLoss": 1.0682966054760996,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 8,
@@ -764,17 +764,17 @@
         "ECE": 0.21850466530192247,
         "Accuracy": 0.60125,
         "LogLoss": 0.8108365926075781,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 9,
-        "round_time_sec": 0.001,
+        "round_time_sec": 0.0009,
         "AUROC": 0.5346321294997662,
         "Brier": 0.288174612667363,
         "ECE": 0.2371174809393326,
         "Accuracy": 0.56375,
         "LogLoss": 0.8255261634246304,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 10,
@@ -784,17 +784,17 @@
         "ECE": 0.271878192892278,
         "Accuracy": 0.545,
         "LogLoss": 0.9189632033902635,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 11,
-        "round_time_sec": 0.0009,
+        "round_time_sec": 0.001,
         "AUROC": 0.5521125525946704,
         "Brier": 0.24200531505158437,
         "ECE": 0.14920969306359808,
         "Accuracy": 0.63625,
         "LogLoss": 0.7026321124749471,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 12,
@@ -804,7 +804,7 @@
         "ECE": 0.23491513065707897,
         "Accuracy": 0.55375,
         "LogLoss": 0.831023267034514,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 13,
@@ -814,7 +814,7 @@
         "ECE": 0.3294188143493192,
         "Accuracy": 0.41125,
         "LogLoss": 0.8641570834786876,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 14,
@@ -824,17 +824,17 @@
         "ECE": 0.372211374324373,
         "Accuracy": 0.46625,
         "LogLoss": 1.0867484282685935,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 15,
-        "round_time_sec": 0.0009,
+        "round_time_sec": 0.001,
         "AUROC": 0.6752279102384291,
         "Brier": 0.4014599587043986,
         "ECE": 0.420439270796161,
         "Accuracy": 0.47,
         "LogLoss": 1.368234254573147,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 16,
@@ -844,7 +844,7 @@
         "ECE": 0.3695964236185949,
         "Accuracy": 0.45125,
         "LogLoss": 1.0369969081953259,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 17,
@@ -854,7 +854,7 @@
         "ECE": 0.33998728437294073,
         "Accuracy": 0.505,
         "LogLoss": 1.2596744197019667,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 18,
@@ -864,7 +864,7 @@
         "ECE": 0.3283816934531181,
         "Accuracy": 0.545,
         "LogLoss": 1.2682606968146468,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 19,
@@ -874,17 +874,17 @@
         "ECE": 0.30806530061833964,
         "Accuracy": 0.56625,
         "LogLoss": 1.2895158917738885,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 20,
-        "round_time_sec": 0.0009,
+        "round_time_sec": 0.001,
         "AUROC": 0.5256837307152875,
         "Brier": 0.3617474100364593,
         "ECE": 0.3264676540089873,
         "Accuracy": 0.54125,
         "LogLoss": 1.3916354119341756,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 21,
@@ -894,7 +894,7 @@
         "ECE": 0.29318339601789967,
         "Accuracy": 0.55625,
         "LogLoss": 1.171317966080093,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 22,
@@ -904,7 +904,7 @@
         "ECE": 0.3431396475752465,
         "Accuracy": 0.49,
         "LogLoss": 1.2682431788094901,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 23,
@@ -914,7 +914,7 @@
         "ECE": 0.32468504861306846,
         "Accuracy": 0.53875,
         "LogLoss": 1.4094670015179909,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 24,
@@ -924,17 +924,17 @@
         "ECE": 0.29764433085818576,
         "Accuracy": 0.5625,
         "LogLoss": 1.2502999983090572,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 25,
-        "round_time_sec": 0.001,
+        "round_time_sec": 0.0009,
         "AUROC": 0.4445199275362319,
         "Brier": 0.34735833599646104,
         "ECE": 0.31514293107851643,
         "Accuracy": 0.55625,
         "LogLoss": 1.3486298671201837,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 26,
@@ -944,7 +944,7 @@
         "ECE": 0.24295749620067253,
         "Accuracy": 0.61375,
         "LogLoss": 1.0248523997403283,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 27,
@@ -954,7 +954,7 @@
         "ECE": 0.24673535212156755,
         "Accuracy": 0.66,
         "LogLoss": 1.0489070875407243,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 28,
@@ -964,7 +964,7 @@
         "ECE": 0.24384577798420848,
         "Accuracy": 0.65375,
         "LogLoss": 1.0970417681793432,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 29,
@@ -974,7 +974,7 @@
         "ECE": 0.2433598544667228,
         "Accuracy": 0.66125,
         "LogLoss": 1.0836810723990709,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       },
       {
         "round": 30,
@@ -984,53 +984,53 @@
         "ECE": 0.2541758989938076,
         "Accuracy": 0.66125,
         "LogLoss": 1.2771971510134643,
-        "total_time_sec": 0.1461
+        "total_time_sec": 0.1443
       }
     ],
     "local_mlp": [
       {
         "site": 1,
-        "site_time_sec": 0.0571,
+        "site_time_sec": 0.0583,
         "AUROC": 0.7483271972884525,
         "Brier": 0.17789065339989804,
         "ECE": 0.033721767512301465,
         "Accuracy": 0.74125,
         "LogLoss": 0.5308142968581729,
-        "total_time_sec": 0.2397
+        "total_time_sec": 0.2451
       },
       {
         "site": 2,
-        "site_time_sec": 0.0551,
+        "site_time_sec": 0.0563,
         "AUROC": 0.7400289270687237,
         "Brier": 0.18092255664894638,
         "ECE": 0.02785142042864917,
         "Accuracy": 0.73125,
         "LogLoss": 0.5369425188088354,
-        "total_time_sec": 0.2397
+        "total_time_sec": 0.2451
       },
       {
         "site": 3,
-        "site_time_sec": 0.0553,
+        "site_time_sec": 0.0571,
         "AUROC": 0.7438785647498831,
         "Brier": 0.18002090375542815,
         "ECE": 0.025828057884662314,
         "Accuracy": 0.73875,
         "LogLoss": 0.5346205405766684,
-        "total_time_sec": 0.2397
+        "total_time_sec": 0.2451
       },
       {
         "site": 4,
-        "site_time_sec": 0.0545,
+        "site_time_sec": 0.0557,
         "AUROC": 0.75903605656849,
         "Brier": 0.17516951258774327,
         "ECE": 0.025881208345266245,
         "Accuracy": 0.75,
         "LogLoss": 0.5228686399791161,
-        "total_time_sec": 0.2397
+        "total_time_sec": 0.2451
       }
     ],
     "central_mlp": {
-      "total_time_sec": 0.5218,
+      "total_time_sec": 0.4477,
       "AUROC": 0.7494156147732585,
       "Brier": 0.17801217457203958,
       "ECE": 0.03293993420057357,
@@ -1045,58 +1045,58 @@
       "ECE": 0.032949100313143326,
       "Accuracy": 0.745,
       "LogLoss": 0.5298231475287316,
-      "total_time_sec": 0.381
+      "total_time_sec": 0.3726
     },
     "fedavg_mlp_history": [
       {
         "round": 1,
-        "round_time_sec": 0.0105,
+        "round_time_sec": 0.0085,
         "AUROC": 0.5175973001402524,
         "Brier": 0.2268692683791984,
         "ECE": 0.09504031884462413,
         "Accuracy": 0.67,
         "LogLoss": 0.6530272412626489,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 2,
-        "round_time_sec": 0.0104,
+        "round_time_sec": 0.0081,
         "AUROC": 0.5426235974754559,
         "Brier": 0.22132748332286717,
         "ECE": 0.07598686612912783,
         "Accuracy": 0.67375,
         "LogLoss": 0.6392459586343022,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 3,
-        "round_time_sec": 0.0079,
+        "round_time_sec": 0.0097,
         "AUROC": 0.5668463651238896,
         "Brier": 0.21661174639191713,
         "ECE": 0.06844305270489988,
         "Accuracy": 0.67625,
         "LogLoss": 0.6273964303908836,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 4,
-        "round_time_sec": 0.0079,
+        "round_time_sec": 0.0119,
         "AUROC": 0.5894109396914446,
         "Brier": 0.2124972845185159,
         "ECE": 0.05287380934762632,
         "Accuracy": 0.6825,
         "LogLoss": 0.6170005799165016,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 5,
-        "round_time_sec": 0.0079,
+        "round_time_sec": 0.008,
         "AUROC": 0.6091047218326321,
         "Brier": 0.20887606008132534,
         "ECE": 0.039851773316458436,
         "Accuracy": 0.6825,
         "LogLoss": 0.6078236307090565,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 6,
@@ -1106,47 +1106,47 @@
         "ECE": 0.03453643687626473,
         "Accuracy": 0.685,
         "LogLoss": 0.5996797748976284,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 7,
-        "round_time_sec": 0.008,
+        "round_time_sec": 0.0079,
         "AUROC": 0.6438245091164094,
         "Brier": 0.2027905653245402,
         "ECE": 0.02628600748232379,
         "Accuracy": 0.69125,
         "LogLoss": 0.5923987804472017,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 8,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.008,
         "AUROC": 0.6575137330528285,
         "Brier": 0.20022952415574985,
         "ECE": 0.02320404305410472,
         "Accuracy": 0.69,
         "LogLoss": 0.5859109542030708,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 9,
-        "round_time_sec": 0.0082,
+        "round_time_sec": 0.0081,
         "AUROC": 0.668638966806919,
         "Brier": 0.19792310025875026,
         "ECE": 0.02824463823344607,
         "Accuracy": 0.68875,
         "LogLoss": 0.5800719969136217,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 10,
-        "round_time_sec": 0.0081,
+        "round_time_sec": 0.008,
         "AUROC": 0.6795085320243104,
         "Brier": 0.19583539666888633,
         "ECE": 0.015821824374614865,
         "Accuracy": 0.69875,
         "LogLoss": 0.5747920835227869,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 11,
@@ -1156,57 +1156,57 @@
         "ECE": 0.011275986896154147,
         "Accuracy": 0.6975,
         "LogLoss": 0.5700131506901774,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 12,
-        "round_time_sec": 0.0079,
+        "round_time_sec": 0.008,
         "AUROC": 0.6957763557737261,
         "Brier": 0.19222504639271423,
         "ECE": 0.00894292985109657,
         "Accuracy": 0.7025,
         "LogLoss": 0.5656735001273934,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 13,
-        "round_time_sec": 0.0079,
+        "round_time_sec": 0.008,
         "AUROC": 0.7025187003272557,
         "Brier": 0.1906682045291551,
         "ECE": 0.012382789012023252,
         "Accuracy": 0.70875,
         "LogLoss": 0.561744495261308,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 14,
-        "round_time_sec": 0.0079,
+        "round_time_sec": 0.0081,
         "AUROC": 0.7085816970546984,
         "Brier": 0.18925508034225302,
         "ECE": 0.01931260886414255,
         "Accuracy": 0.71625,
         "LogLoss": 0.5581775101630216,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 15,
-        "round_time_sec": 0.008,
+        "round_time_sec": 0.0081,
         "AUROC": 0.7136220196353437,
         "Brier": 0.18797355020603435,
         "ECE": 0.018881608972917692,
         "Accuracy": 0.7175,
         "LogLoss": 0.5549429489587461,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 16,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.008,
         "AUROC": 0.71815100514259,
         "Brier": 0.1868107506427722,
         "ECE": 0.021370424739256523,
         "Accuracy": 0.72,
         "LogLoss": 0.5520040724547565,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 17,
@@ -1216,7 +1216,7 @@
         "ECE": 0.021036306814628283,
         "Accuracy": 0.72125,
         "LogLoss": 0.5493190464210244,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 18,
@@ -1226,117 +1226,117 @@
         "ECE": 0.02351600479055239,
         "Accuracy": 0.725,
         "LogLoss": 0.5468736236406663,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 19,
-        "round_time_sec": 0.0079,
+        "round_time_sec": 0.0081,
         "AUROC": 0.72953190743338,
         "Brier": 0.18389636340323365,
         "ECE": 0.024527505290713927,
         "Accuracy": 0.72625,
         "LogLoss": 0.5446355569075051,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 20,
-        "round_time_sec": 0.0079,
+        "round_time_sec": 0.0081,
         "AUROC": 0.7324757480130901,
         "Brier": 0.1830852756096336,
         "ECE": 0.02640779766678,
         "Accuracy": 0.72625,
         "LogLoss": 0.5425876585487529,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 21,
-        "round_time_sec": 0.0079,
+        "round_time_sec": 0.008,
         "AUROC": 0.7350835670874241,
         "Brier": 0.1823481868617401,
         "ECE": 0.024950348975258548,
         "Accuracy": 0.72875,
         "LogLoss": 0.5407254797990331,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 22,
-        "round_time_sec": 0.008,
+        "round_time_sec": 0.0081,
         "AUROC": 0.7373918887330528,
         "Brier": 0.18168227521591657,
         "ECE": 0.022211232625044378,
         "Accuracy": 0.7275,
         "LogLoss": 0.5390399391574932,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 23,
-        "round_time_sec": 0.0087,
+        "round_time_sec": 0.0081,
         "AUROC": 0.7392838359046283,
         "Brier": 0.18107348824834626,
         "ECE": 0.023666118135730226,
         "Accuracy": 0.73,
         "LogLoss": 0.537500880041195,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 24,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.008,
         "AUROC": 0.7415264142122486,
         "Brier": 0.18051686291309166,
         "ECE": 0.029086904736349246,
         "Accuracy": 0.73625,
         "LogLoss": 0.5360954807315157,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 25,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.008,
         "AUROC": 0.743111559139785,
         "Brier": 0.18000612162454074,
         "ECE": 0.03278368234183442,
         "Accuracy": 0.73875,
         "LogLoss": 0.5348074476555391,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 26,
-        "round_time_sec": 0.011,
+        "round_time_sec": 0.0081,
         "AUROC": 0.7445579125759701,
         "Brier": 0.17953921347892873,
         "ECE": 0.03844280704238905,
         "Accuracy": 0.74125,
         "LogLoss": 0.5336330629921862,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 27,
-        "round_time_sec": 0.008,
+        "round_time_sec": 0.0081,
         "AUROC": 0.7461430575035063,
         "Brier": 0.17910642999947377,
         "ECE": 0.03739873417009938,
         "Accuracy": 0.74125,
         "LogLoss": 0.5325477298334985,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 28,
-        "round_time_sec": 0.0079,
+        "round_time_sec": 0.008,
         "AUROC": 0.7472095605423095,
         "Brier": 0.17870847258041203,
         "ECE": 0.03905117936985169,
         "Accuracy": 0.74375,
         "LogLoss": 0.5315531577932517,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 29,
-        "round_time_sec": 0.0082,
+        "round_time_sec": 0.0079,
         "AUROC": 0.7484075502571295,
         "Brier": 0.17834454850242323,
         "ECE": 0.03368961183217138,
         "Accuracy": 0.745,
         "LogLoss": 0.5306473587008231,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       },
       {
         "round": 30,
@@ -1346,49 +1346,49 @@
         "ECE": 0.032949100313143326,
         "Accuracy": 0.745,
         "LogLoss": 0.5298231475287316,
-        "total_time_sec": 0.381
+        "total_time_sec": 0.3726
       }
     ],
     "fedprox_mlp": {
       "round": 30,
-      "round_time_sec": 0.0084,
+      "round_time_sec": 0.0085,
       "AUROC": 0.7493352618045817,
       "Brier": 0.1780497772771028,
       "ECE": 0.03287376634240095,
       "Accuracy": 0.745,
       "LogLoss": 0.529918460000779,
-      "total_time_sec": 0.3761
+      "total_time_sec": 0.3824
     },
     "fedprox_mlp_history": [
       {
         "round": 1,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.0085,
         "AUROC": 0.5174658134642356,
         "Brier": 0.22689416171290766,
         "ECE": 0.0950591468154617,
         "Accuracy": 0.67,
         "LogLoss": 0.653088620822484,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 2,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.0084,
         "AUROC": 0.542440977092099,
         "Brier": 0.22136940195422525,
         "ECE": 0.07601198415612032,
         "Accuracy": 0.67375,
         "LogLoss": 0.6393506071414091,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 3,
-        "round_time_sec": 0.0083,
+        "round_time_sec": 0.0085,
         "AUROC": 0.5666053062178589,
         "Brier": 0.21666592691791528,
         "ECE": 0.06846359272631644,
         "Accuracy": 0.67625,
         "LogLoss": 0.6275328953914595,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 4,
@@ -1398,47 +1398,47 @@
         "ECE": 0.05362734093201213,
         "Accuracy": 0.6825,
         "LogLoss": 0.6171606730710296,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 5,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.0084,
         "AUROC": 0.6087029569892473,
         "Brier": 0.2089453059005107,
         "ECE": 0.039838789318127454,
         "Accuracy": 0.6825,
         "LogLoss": 0.6079992666881364,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 6,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.0085,
         "AUROC": 0.627206054230949,
         "Brier": 0.20573891190968244,
         "ECE": 0.034501342805412706,
         "Accuracy": 0.685,
         "LogLoss": 0.599869151491639,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 7,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.0085,
         "AUROC": 0.6434227442730247,
         "Brier": 0.2028685682922922,
         "ECE": 0.025178441558257228,
         "Accuracy": 0.69125,
         "LogLoss": 0.5925962334899895,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 8,
-        "round_time_sec": 0.0083,
+        "round_time_sec": 0.0084,
         "AUROC": 0.6570973585787752,
         "Brier": 0.2003082231982175,
         "ECE": 0.023650622060453635,
         "Accuracy": 0.69,
         "LogLoss": 0.5861102608628359,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 9,
@@ -1448,37 +1448,37 @@
         "ECE": 0.028227576937087606,
         "Accuracy": 0.68875,
         "LogLoss": 0.5802746022277124,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 10,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.0083,
         "AUROC": 0.6790118045815801,
         "Brier": 0.19591649374025574,
         "ECE": 0.019591379024818563,
         "Accuracy": 0.6975,
         "LogLoss": 0.5749967939450358,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 11,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.0131,
         "AUROC": 0.6875584385226742,
         "Brier": 0.19402482232790383,
         "ECE": 0.015023172464751504,
         "Accuracy": 0.69625,
         "LogLoss": 0.5702172489217305,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 12,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.0087,
         "AUROC": 0.6955645161290323,
         "Brier": 0.19230455273051525,
         "ECE": 0.008258147480010436,
         "Accuracy": 0.70375,
         "LogLoss": 0.5658740877770295,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 13,
@@ -1488,87 +1488,87 @@
         "ECE": 0.013081286408245248,
         "Accuracy": 0.70875,
         "LogLoss": 0.5619419856005726,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 14,
-        "round_time_sec": 0.0083,
+        "round_time_sec": 0.0085,
         "AUROC": 0.708245675549322,
         "Brier": 0.18933159267249255,
         "ECE": 0.019292140507166492,
         "Accuracy": 0.71625,
         "LogLoss": 0.5583705248575401,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 15,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.0085,
         "AUROC": 0.71330791257597,
         "Brier": 0.18804774611980313,
         "ECE": 0.020111613939615747,
         "Accuracy": 0.7175,
         "LogLoss": 0.5551302975922106,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 16,
-        "round_time_sec": 0.0083,
+        "round_time_sec": 0.0084,
         "AUROC": 0.7178807269752221,
         "Brier": 0.18688240282858837,
         "ECE": 0.02056466120425019,
         "Accuracy": 0.72,
         "LogLoss": 0.5521854169630401,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 17,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.0087,
         "AUROC": 0.7220006428237495,
         "Brier": 0.18581965293200156,
         "ECE": 0.021967551303588892,
         "Accuracy": 0.72125,
         "LogLoss": 0.5494942266861585,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 18,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0085,
         "AUROC": 0.7259744623655914,
         "Brier": 0.18484981529039848,
         "ECE": 0.023451589001920896,
         "Accuracy": 0.725,
         "LogLoss": 0.5470428060982244,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 19,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.0086,
         "AUROC": 0.7293712014960261,
         "Brier": 0.18396083261182866,
         "ECE": 0.02335812807954246,
         "Accuracy": 0.72625,
         "LogLoss": 0.5447985809077016,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 20,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.0085,
         "AUROC": 0.7322492987377279,
         "Brier": 0.18314683040029336,
         "ECE": 0.024212071806025994,
         "Accuracy": 0.72625,
         "LogLoss": 0.5427433426499841,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 21,
-        "round_time_sec": 0.0083,
+        "round_time_sec": 0.0085,
         "AUROC": 0.7348936418887331,
         "Brier": 0.18240728311037685,
         "ECE": 0.02469595470284811,
         "Accuracy": 0.72875,
         "LogLoss": 0.540875059277365,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 22,
@@ -1578,57 +1578,57 @@
         "ECE": 0.025943629083965924,
         "Accuracy": 0.72875,
         "LogLoss": 0.5391817373106693,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 23,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.0083,
         "AUROC": 0.7390208625525947,
         "Brier": 0.18112687217927037,
         "ECE": 0.020917591478540217,
         "Accuracy": 0.72875,
         "LogLoss": 0.5376359993329217,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 24,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.0083,
         "AUROC": 0.7412853553062179,
         "Brier": 0.1805679599148182,
         "ECE": 0.027591943496079088,
         "Accuracy": 0.73625,
         "LogLoss": 0.5362246423150531,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 25,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.0084,
         "AUROC": 0.7430239013557738,
         "Brier": 0.18005506017052422,
         "ECE": 0.03203710021148639,
         "Accuracy": 0.73875,
         "LogLoss": 0.5349308387529189,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 26,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.0084,
         "AUROC": 0.7443606825619449,
         "Brier": 0.1795857975527683,
         "ECE": 0.03919790292102879,
         "Accuracy": 0.74125,
         "LogLoss": 0.5337503217431752,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 27,
-        "round_time_sec": 0.0083,
+        "round_time_sec": 0.0084,
         "AUROC": 0.7460407900888266,
         "Brier": 0.17915120030902593,
         "ECE": 0.03865169530576916,
         "Accuracy": 0.74,
         "LogLoss": 0.5326599248572148,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 28,
@@ -1638,27 +1638,27 @@
         "ECE": 0.03878523742362527,
         "Accuracy": 0.74375,
         "LogLoss": 0.5316595539559014,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 29,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.0084,
         "AUROC": 0.748232234689107,
         "Brier": 0.1783853699546561,
         "ECE": 0.03367363020188485,
         "Accuracy": 0.745,
         "LogLoss": 0.5307489400139006,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       },
       {
         "round": 30,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.0085,
         "AUROC": 0.7493352618045817,
         "Brier": 0.1780497772771028,
         "ECE": 0.03287376634240095,
         "Accuracy": 0.745,
         "LogLoss": 0.529918460000779,
-        "total_time_sec": 0.3761
+        "total_time_sec": 0.3824
       }
     ],
     "fedavg_dp_mlp": {
@@ -1669,119 +1669,119 @@
       "ECE": 0.3142536794252417,
       "Accuracy": 0.685,
       "LogLoss": 4.83043923731014,
-      "total_time_sec": 0.3711,
+      "total_time_sec": 0.3716,
       "epsilon": 53.072182580974236
     },
     "fedavg_dp_mlp_history": [
       {
         "round": 1,
-        "round_time_sec": 0.0082,
+        "round_time_sec": 0.0081,
         "AUROC": 0.48846569658719025,
         "Brier": 0.6797225751489735,
         "ECE": 0.6825314418846182,
         "Accuracy": 0.31,
         "LogLoss": 5.171268575741449,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 2,
-        "round_time_sec": 0.0081,
+        "round_time_sec": 0.0082,
         "AUROC": 0.4861427653108929,
         "Brier": 0.6899979984610173,
         "ECE": 0.6899985568259941,
         "Accuracy": 0.31,
         "LogLoss": 10.724375372970606,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 3,
-        "round_time_sec": 0.0081,
+        "round_time_sec": 0.0082,
         "AUROC": 0.5657177711547452,
         "Brier": 0.5425914606685005,
         "ECE": 0.5468095321195001,
         "Accuracy": 0.40625,
         "LogLoss": 4.326942289240309,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 4,
-        "round_time_sec": 0.0082,
+        "round_time_sec": 0.0084,
         "AUROC": 0.546875,
         "Brier": 0.5779216438759041,
         "ECE": 0.5779991008893207,
         "Accuracy": 0.34375,
         "LogLoss": 4.053627134040231,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 5,
-        "round_time_sec": 0.0082,
+        "round_time_sec": 0.0083,
         "AUROC": 0.6073296517064048,
         "Brier": 0.2957990541719919,
         "ECE": 0.28447710082911537,
         "Accuracy": 0.6875,
         "LogLoss": 2.590980005891728,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 6,
-        "round_time_sec": 0.0082,
+        "round_time_sec": 0.0083,
         "AUROC": 0.7127527466105656,
         "Brier": 0.3340107704222581,
         "ECE": 0.3288838896855982,
         "Accuracy": 0.6425,
         "LogLoss": 2.840872321152095,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 7,
-        "round_time_sec": 0.0082,
+        "round_time_sec": 0.0083,
         "AUROC": 0.6574005084151473,
         "Brier": 0.29423427854558876,
         "ECE": 0.29385866068724803,
         "Accuracy": 0.68625,
         "LogLoss": 3.3661884702701026,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 8,
-        "round_time_sec": 0.0082,
+        "round_time_sec": 0.0084,
         "AUROC": 0.39911319541841983,
         "Brier": 0.46650534022925605,
         "ECE": 0.4617405255217166,
         "Accuracy": 0.515,
         "LogLoss": 5.416354622481033,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 9,
-        "round_time_sec": 0.0082,
+        "round_time_sec": 0.0085,
         "AUROC": 0.34296473235156616,
         "Brier": 0.46943450494652583,
         "ECE": 0.47402382335249404,
         "Accuracy": 0.51375,
         "LogLoss": 5.9013943307559575,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 10,
-        "round_time_sec": 0.0081,
+        "round_time_sec": 0.0084,
         "AUROC": 0.5454505610098177,
         "Brier": 0.3807020858828926,
         "ECE": 0.3820439676006134,
         "Accuracy": 0.61,
         "LogLoss": 5.3504155006461085,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 11,
-        "round_time_sec": 0.0083,
+        "round_time_sec": 0.0084,
         "AUROC": 0.621460816970547,
         "Brier": 0.2781147002631311,
         "ECE": 0.2778624589492411,
         "Accuracy": 0.715,
         "LogLoss": 3.9956334679886267,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 12,
@@ -1791,7 +1791,7 @@
         "ECE": 0.2817754899780587,
         "Accuracy": 0.71125,
         "LogLoss": 3.8758622370350873,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 13,
@@ -1801,37 +1801,37 @@
         "ECE": 0.31027412964210976,
         "Accuracy": 0.69,
         "LogLoss": 4.933888071518674,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 14,
-        "round_time_sec": 0.0083,
+        "round_time_sec": 0.0085,
         "AUROC": 0.5455783952781674,
         "Brier": 0.4098350070642166,
         "ECE": 0.4087092531637303,
         "Accuracy": 0.58125,
         "LogLoss": 5.498985197955443,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 15,
-        "round_time_sec": 0.0082,
+        "round_time_sec": 0.0083,
         "AUROC": 0.5641947171575503,
         "Brier": 0.2840022437237909,
         "ECE": 0.28425662209376473,
         "Accuracy": 0.71375,
         "LogLoss": 4.433106021307067,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 16,
-        "round_time_sec": 0.0083,
+        "round_time_sec": 0.0084,
         "AUROC": 0.34366599462365593,
         "Brier": 0.46975626721151964,
         "ECE": 0.4739171709897809,
         "Accuracy": 0.51375,
         "LogLoss": 6.082472699783068,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 17,
@@ -1841,27 +1841,27 @@
         "ECE": 0.32286332177465377,
         "Accuracy": 0.675,
         "LogLoss": 4.8176922732586345,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 18,
-        "round_time_sec": 0.0083,
+        "round_time_sec": 0.0082,
         "AUROC": 0.5362611033193081,
         "Brier": 0.3213919005307539,
         "ECE": 0.3236665274283763,
         "Accuracy": 0.6725,
         "LogLoss": 4.745132872576064,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 19,
-        "round_time_sec": 0.0083,
+        "round_time_sec": 0.0082,
         "AUROC": 0.6857176250584385,
         "Brier": 0.2747025781148855,
         "ECE": 0.2750864083691442,
         "Accuracy": 0.72125,
         "LogLoss": 4.113192405065403,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 20,
@@ -1871,27 +1871,27 @@
         "ECE": 0.3004446761852293,
         "Accuracy": 0.70125,
         "LogLoss": 4.424100392379323,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 21,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0084,
         "AUROC": 0.5858060133239832,
         "Brier": 0.4275801339787438,
         "ECE": 0.42874433965484604,
         "Accuracy": 0.5675,
         "LogLoss": 6.2368409831774265,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 22,
-        "round_time_sec": 0.0083,
+        "round_time_sec": 0.0084,
         "AUROC": 0.6421480539971949,
         "Brier": 0.2706305900783528,
         "ECE": 0.27304184158407324,
         "Accuracy": 0.7275,
         "LogLoss": 3.8580937671600446,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 23,
@@ -1901,27 +1901,27 @@
         "ECE": 0.31391964647791365,
         "Accuracy": 0.68375,
         "LogLoss": 4.792202377301642,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 24,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.0083,
         "AUROC": 0.526892677653109,
         "Brier": 0.4882410979405601,
         "ECE": 0.4901970996731042,
         "Accuracy": 0.50375,
         "LogLoss": 6.878743647849676,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 25,
-        "round_time_sec": 0.0082,
+        "round_time_sec": 0.0083,
         "AUROC": 0.4488370733987845,
         "Brier": 0.6355225594795288,
         "ECE": 0.6342616001333359,
         "Accuracy": 0.35875,
         "LogLoss": 9.505437298405631,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 26,
@@ -1931,7 +1931,7 @@
         "ECE": 0.39435386752248414,
         "Accuracy": 0.6,
         "LogLoss": 5.624090157020535,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 27,
@@ -1941,7 +1941,7 @@
         "ECE": 0.3577021513983003,
         "Accuracy": 0.63875,
         "LogLoss": 4.9387935715702405,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 28,
@@ -1951,17 +1951,17 @@
         "ECE": 0.4696093645321239,
         "Accuracy": 0.52625,
         "LogLoss": 7.020947246976538,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 29,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.0082,
         "AUROC": 0.6437733754090698,
         "Brier": 0.3979764608897568,
         "ECE": 0.3993470809129969,
         "Accuracy": 0.5975,
         "LogLoss": 5.787586406991584,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       },
       {
         "round": 30,
@@ -1971,10 +1971,11 @@
         "ECE": 0.3142536794252417,
         "Accuracy": 0.685,
         "LogLoss": 4.83043923731014,
-        "total_time_sec": 0.3711
+        "total_time_sec": 0.3716
       }
     ],
     "glore": {
+      "total_time_sec": 0.0219,
       "AUROC": 0.7714104137447406,
       "Brier": 0.16931582861966432,
       "ECE": 0.04283032151291898,
@@ -1986,13 +1987,13 @@
     "local_logreg": [
       {
         "site": 1,
-        "site_time_sec": 0.0062,
+        "site_time_sec": 0.0063,
         "AUROC": 0.7709282959326788,
         "Brier": 0.18802878375202092,
         "ECE": 0.10737372924475798,
         "Accuracy": 0.70125,
         "LogLoss": 0.559246837363096,
-        "total_time_sec": 0.0355
+        "total_time_sec": 0.0354
       },
       {
         "site": 2,
@@ -2002,31 +2003,31 @@
         "ECE": 0.18554923732397885,
         "Accuracy": 0.70625,
         "LogLoss": 0.6058892714812337,
-        "total_time_sec": 0.0355
+        "total_time_sec": 0.0354
       },
       {
         "site": 3,
-        "site_time_sec": 0.0052,
+        "site_time_sec": 0.0051,
         "AUROC": 0.7736895161290323,
         "Brier": 0.19898311083495812,
         "ECE": 0.16699796800606603,
         "Accuracy": 0.72125,
         "LogLoss": 0.5855072493061397,
-        "total_time_sec": 0.0355
+        "total_time_sec": 0.0354
       },
       {
         "site": 4,
-        "site_time_sec": 0.0037,
+        "site_time_sec": 0.0038,
         "AUROC": 0.7725645745675549,
         "Brier": 0.3304618756313074,
         "ECE": 0.38671963845048707,
         "Accuracy": 0.37625,
         "LogLoss": 0.872223862183073,
-        "total_time_sec": 0.0355
+        "total_time_sec": 0.0354
       }
     ],
     "central_logreg": {
-      "total_time_sec": 0.0081,
+      "total_time_sec": 0.0082,
       "AUROC": 0.7728859864422628,
       "Brier": 0.18637052882715233,
       "ECE": 0.12727802342205968,
@@ -2035,24 +2036,24 @@
     },
     "fedavg_logreg": {
       "round": 30,
-      "round_time_sec": 0.0007,
+      "round_time_sec": 0.0008,
       "AUROC": 0.7728786816269284,
       "Brier": 0.18640101227424688,
       "ECE": 0.12609616865538684,
       "Accuracy": 0.75625,
       "LogLoss": 0.5590368155341533,
-      "total_time_sec": 0.138
+      "total_time_sec": 0.1367
     },
     "fedavg_logreg_history": [
       {
         "round": 1,
-        "round_time_sec": 0.0009,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7730174731182795,
         "Brier": 0.24574202846627102,
         "ECE": 0.25111875108397513,
         "Accuracy": 0.7575,
         "LogLoss": 0.6846298869264744,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 2,
@@ -2062,7 +2063,7 @@
         "ECE": 0.24490309712174804,
         "Accuracy": 0.7575,
         "LogLoss": 0.6765514158011176,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 3,
@@ -2072,7 +2073,7 @@
         "ECE": 0.2388528234732204,
         "Accuracy": 0.7575,
         "LogLoss": 0.6688888826190231,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 4,
@@ -2082,7 +2083,7 @@
         "ECE": 0.2317169898894987,
         "Accuracy": 0.75625,
         "LogLoss": 0.6616202468774677,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 5,
@@ -2092,7 +2093,7 @@
         "ECE": 0.2259940563305091,
         "Accuracy": 0.75625,
         "LogLoss": 0.6547243543975247,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 6,
@@ -2102,7 +2103,7 @@
         "ECE": 0.2216818486230016,
         "Accuracy": 0.7575,
         "LogLoss": 0.6481809642231064,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 7,
@@ -2112,7 +2113,7 @@
         "ECE": 0.21627783374746223,
         "Accuracy": 0.7575,
         "LogLoss": 0.6419707621429275,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 8,
@@ -2122,7 +2123,7 @@
         "ECE": 0.21102915018075885,
         "Accuracy": 0.7575,
         "LogLoss": 0.636075362784046,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 9,
@@ -2132,7 +2133,7 @@
         "ECE": 0.20593257577555268,
         "Accuracy": 0.7575,
         "LogLoss": 0.6304773021314225,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 10,
@@ -2142,7 +2143,7 @@
         "ECE": 0.20098463975520742,
         "Accuracy": 0.7575,
         "LogLoss": 0.6251600221940246,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 11,
@@ -2152,7 +2153,7 @@
         "ECE": 0.19618167851339058,
         "Accuracy": 0.7575,
         "LogLoss": 0.6201078493795026,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 12,
@@ -2162,7 +2163,7 @@
         "ECE": 0.19151988510803722,
         "Accuracy": 0.7575,
         "LogLoss": 0.6153059679687933,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 13,
@@ -2172,7 +2173,7 @@
         "ECE": 0.18699535273590706,
         "Accuracy": 0.7575,
         "LogLoss": 0.6107403899088059,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 14,
@@ -2182,7 +2183,7 @@
         "ECE": 0.18260411255886547,
         "Accuracy": 0.7575,
         "LogLoss": 0.6063979219727912,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 15,
@@ -2192,7 +2193,7 @@
         "ECE": 0.17834216630590283,
         "Accuracy": 0.7575,
         "LogLoss": 0.6022661311790328,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 16,
@@ -2202,7 +2203,7 @@
         "ECE": 0.1742055141021682,
         "Accuracy": 0.7575,
         "LogLoss": 0.5983333092122727,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 17,
@@ -2212,7 +2213,7 @@
         "ECE": 0.17019017798371608,
         "Accuracy": 0.7575,
         "LogLoss": 0.5945884364605427,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 18,
@@ -2222,7 +2223,7 @@
         "ECE": 0.16629222154927467,
         "Accuracy": 0.7575,
         "LogLoss": 0.5910211461633975,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 19,
@@ -2232,7 +2233,7 @@
         "ECE": 0.1625077661823597,
         "Accuracy": 0.7575,
         "LogLoss": 0.587621689065801,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 20,
@@ -2242,7 +2243,7 @@
         "ECE": 0.15883300425193816,
         "Accuracy": 0.7575,
         "LogLoss": 0.5843808988843935,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 21,
@@ -2252,27 +2253,27 @@
         "ECE": 0.1552642096703205,
         "Accuracy": 0.7575,
         "LogLoss": 0.5812901588185,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 22,
-        "round_time_sec": 0.0008,
+        "round_time_sec": 0.0007,
         "AUROC": 0.7729663394109398,
         "Brier": 0.19467051641136346,
         "ECE": 0.1517977461551612,
         "Accuracy": 0.7575,
         "LogLoss": 0.5783413692758285,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 23,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7729517297802712,
         "Brier": 0.19343373047696552,
         "ECE": 0.14843007350995366,
         "Accuracy": 0.7575,
         "LogLoss": 0.5755269169309968,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 24,
@@ -2282,17 +2283,17 @@
         "ECE": 0.14390766064558963,
         "Accuracy": 0.75625,
         "LogLoss": 0.572839645192555,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 25,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.773002863487611,
         "Brier": 0.19115184155524212,
         "ECE": 0.1407272589537235,
         "Accuracy": 0.75625,
         "LogLoss": 0.5702728261197464,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 26,
@@ -2302,7 +2303,7 @@
         "ECE": 0.13763564281159613,
         "Accuracy": 0.75625,
         "LogLoss": 0.5678201338027331,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 27,
@@ -2312,7 +2313,7 @@
         "ECE": 0.13462968927167732,
         "Accuracy": 0.75625,
         "LogLoss": 0.565475619198345,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 28,
@@ -2322,7 +2323,7 @@
         "ECE": 0.13170638195647805,
         "Accuracy": 0.75625,
         "LogLoss": 0.5632336863966398,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 29,
@@ -2332,17 +2333,17 @@
         "ECE": 0.12886281037434744,
         "Accuracy": 0.75625,
         "LogLoss": 0.5610890702808734,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       },
       {
         "round": 30,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7728786816269284,
         "Brier": 0.18640101227424688,
         "ECE": 0.12609616865538684,
         "Accuracy": 0.75625,
         "LogLoss": 0.5590368155341533,
-        "total_time_sec": 0.138
+        "total_time_sec": 0.1367
       }
     ],
     "fedprox_logreg": {
@@ -2353,7 +2354,7 @@
       "ECE": 0.12642734952766407,
       "Accuracy": 0.75625,
       "LogLoss": 0.5592807062761453,
-      "total_time_sec": 0.1381
+      "total_time_sec": 0.1386
     },
     "fedprox_logreg_history": [
       {
@@ -2364,7 +2365,7 @@
         "ECE": 0.251144217944296,
         "Accuracy": 0.7575,
         "LogLoss": 0.684663426160851,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 2,
@@ -2374,7 +2375,7 @@
         "ECE": 0.24495269398109634,
         "Accuracy": 0.7575,
         "LogLoss": 0.6766150452477411,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 3,
@@ -2384,7 +2385,7 @@
         "ECE": 0.23892522020886092,
         "Accuracy": 0.7575,
         "LogLoss": 0.6689794244293981,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 4,
@@ -2394,7 +2395,7 @@
         "ECE": 0.23181087415205012,
         "Accuracy": 0.75625,
         "LogLoss": 0.6617347805390414,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 5,
@@ -2404,7 +2405,7 @@
         "ECE": 0.22610814193779888,
         "Accuracy": 0.75625,
         "LogLoss": 0.6548602021872364,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 6,
@@ -2414,7 +2415,7 @@
         "ECE": 0.2218148867830782,
         "Accuracy": 0.7575,
         "LogLoss": 0.6483356762997715,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 7,
@@ -2424,17 +2425,17 @@
         "ECE": 0.21642861017828383,
         "Accuracy": 0.7575,
         "LogLoss": 0.6421421015707887,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 8,
-        "round_time_sec": 0.0009,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7731343501636279,
         "Brier": 0.22177976143269423,
         "ECE": 0.2111964965653238,
         "Accuracy": 0.7575,
         "LogLoss": 0.6362612907266245,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 9,
@@ -2444,7 +2445,7 @@
         "ECE": 0.20611537103012462,
         "Accuracy": 0.7575,
         "LogLoss": 0.6306759634054474,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 10,
@@ -2454,7 +2455,7 @@
         "ECE": 0.20118181217934517,
         "Accuracy": 0.7575,
         "LogLoss": 0.6253697313287875,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 11,
@@ -2464,7 +2465,7 @@
         "ECE": 0.19639220703153645,
         "Accuracy": 0.7575,
         "LogLoss": 0.6203270772880465,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 12,
@@ -2474,17 +2475,17 @@
         "ECE": 0.1917427997462615,
         "Accuracy": 0.7575,
         "LogLoss": 0.6155333293040307,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 13,
-        "round_time_sec": 0.0008,
+        "round_time_sec": 0.0009,
         "AUROC": 0.7730905212716223,
         "Brier": 0.20962187584279002,
         "ECE": 0.18722973446563224,
         "Accuracy": 0.7575,
         "LogLoss": 0.6109746311498129,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 14,
@@ -2494,7 +2495,7 @@
         "ECE": 0.18284909262625784,
         "Accuracy": 0.7575,
         "LogLoss": 0.6066379102637504,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 15,
@@ -2504,7 +2505,7 @@
         "ECE": 0.17859692515199985,
         "Accuracy": 0.7575,
         "LogLoss": 0.602510843925113,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 16,
@@ -2514,7 +2515,7 @@
         "ECE": 0.17446927996536843,
         "Accuracy": 0.7575,
         "LogLoss": 0.5985818244225841,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 17,
@@ -2524,7 +2525,7 @@
         "ECE": 0.17046222526343976,
         "Accuracy": 0.7575,
         "LogLoss": 0.5948399238176045,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 18,
@@ -2534,27 +2535,27 @@
         "ECE": 0.16657186899769738,
         "Accuracy": 0.7575,
         "LogLoss": 0.5912748587907747,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 19,
-        "round_time_sec": 0.0008,
+        "round_time_sec": 0.0009,
         "AUROC": 0.7729590345956054,
         "Brier": 0.19892991591788112,
         "ECE": 0.1627943749803077,
         "Accuracy": 0.7575,
         "LogLoss": 0.5878769559601854,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 20,
-        "round_time_sec": 0.0008,
+        "round_time_sec": 0.0009,
         "AUROC": 0.772973644226274,
         "Brier": 0.19747126983209726,
         "ECE": 0.1591259760153655,
         "Accuracy": 0.7575,
         "LogLoss": 0.5846371179749731,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 21,
@@ -2564,7 +2565,7 @@
         "ECE": 0.1555629844252888,
         "Accuracy": 0.7575,
         "LogLoss": 0.5815467906145799,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 22,
@@ -2574,7 +2575,7 @@
         "ECE": 0.1521018003118541,
         "Accuracy": 0.7575,
         "LogLoss": 0.5785979310629888,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 23,
@@ -2584,7 +2585,7 @@
         "ECE": 0.1487389178599163,
         "Accuracy": 0.7575,
         "LogLoss": 0.5757829774763299,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 24,
@@ -2594,7 +2595,7 @@
         "ECE": 0.14422084729619433,
         "Accuracy": 0.75625,
         "LogLoss": 0.5730948199204526,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 25,
@@ -2604,7 +2605,7 @@
         "ECE": 0.14104435316386127,
         "Accuracy": 0.75625,
         "LogLoss": 0.5705267727211337,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 26,
@@ -2614,7 +2615,7 @@
         "ECE": 0.1379562469387784,
         "Accuracy": 0.75625,
         "LogLoss": 0.568072548242409,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 27,
@@ -2624,7 +2625,7 @@
         "ECE": 0.13495343258698858,
         "Accuracy": 0.75625,
         "LogLoss": 0.5657262320870619,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 28,
@@ -2634,7 +2635,7 @@
         "ECE": 0.1320329189604996,
         "Accuracy": 0.75625,
         "LogLoss": 0.563482259696647,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 29,
@@ -2644,7 +2645,7 @@
         "ECE": 0.12919181919480707,
         "Accuracy": 0.75625,
         "LogLoss": 0.5613353943157882,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       },
       {
         "round": 30,
@@ -2654,7 +2655,7 @@
         "ECE": 0.12642734952766407,
         "Accuracy": 0.75625,
         "LogLoss": 0.5592807062761453,
-        "total_time_sec": 0.1381
+        "total_time_sec": 0.1386
       }
     ],
     "fedavg_dp_logreg": {
@@ -2665,7 +2666,7 @@
       "ECE": 0.25417041314208183,
       "Accuracy": 0.66125,
       "LogLoss": 1.2772840337762283,
-      "total_time_sec": 0.1448,
+      "total_time_sec": 0.1408,
       "epsilon": 53.072182580974236
     },
     "fedavg_dp_logreg_history": [
@@ -2677,7 +2678,7 @@
         "ECE": 0.09976387342399988,
         "Accuracy": 0.63625,
         "LogLoss": 0.6608910290892568,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 2,
@@ -2687,7 +2688,7 @@
         "ECE": 0.20945864479328377,
         "Accuracy": 0.5875,
         "LogLoss": 0.6736295016959568,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 3,
@@ -2697,7 +2698,7 @@
         "ECE": 0.29878165954472324,
         "Accuracy": 0.46125,
         "LogLoss": 0.764335351914836,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 4,
@@ -2707,7 +2708,7 @@
         "ECE": 0.37110633526044,
         "Accuracy": 0.3925,
         "LogLoss": 0.9281807828956086,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 5,
@@ -2717,7 +2718,7 @@
         "ECE": 0.3142953186265644,
         "Accuracy": 0.45,
         "LogLoss": 0.9629023766118817,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 6,
@@ -2727,7 +2728,7 @@
         "ECE": 0.38134006649537605,
         "Accuracy": 0.4075,
         "LogLoss": 1.2008397070086705,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 7,
@@ -2737,7 +2738,7 @@
         "ECE": 0.3111706123589672,
         "Accuracy": 0.5225,
         "LogLoss": 1.0683355368322394,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 8,
@@ -2747,7 +2748,7 @@
         "ECE": 0.21924685542636466,
         "Accuracy": 0.60125,
         "LogLoss": 0.8108706708935038,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 9,
@@ -2757,7 +2758,7 @@
         "ECE": 0.23711077330306332,
         "Accuracy": 0.56375,
         "LogLoss": 0.8255668982189472,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 10,
@@ -2767,7 +2768,7 @@
         "ECE": 0.2718745968514559,
         "Accuracy": 0.545,
         "LogLoss": 0.9190238160166129,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 11,
@@ -2777,7 +2778,7 @@
         "ECE": 0.15119737971970204,
         "Accuracy": 0.63625,
         "LogLoss": 0.7026882677498544,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 12,
@@ -2787,7 +2788,7 @@
         "ECE": 0.23489727691687812,
         "Accuracy": 0.55375,
         "LogLoss": 0.8310615336043401,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 13,
@@ -2797,7 +2798,7 @@
         "ECE": 0.3293993471617815,
         "Accuracy": 0.41125,
         "LogLoss": 0.8641842864362755,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 14,
@@ -2807,7 +2808,7 @@
         "ECE": 0.3721996759934596,
         "Accuracy": 0.46625,
         "LogLoss": 1.0867552774200318,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 15,
@@ -2817,7 +2818,7 @@
         "ECE": 0.42043812140534487,
         "Accuracy": 0.47,
         "LogLoss": 1.3682125972460486,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 16,
@@ -2827,7 +2828,7 @@
         "ECE": 0.3695823964872115,
         "Accuracy": 0.45125,
         "LogLoss": 1.0370242722626275,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 17,
@@ -2837,7 +2838,7 @@
         "ECE": 0.3399750699509369,
         "Accuracy": 0.505,
         "LogLoss": 1.2596907841771485,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 18,
@@ -2847,7 +2848,7 @@
         "ECE": 0.3283764242412334,
         "Accuracy": 0.545,
         "LogLoss": 1.2683008552279318,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 19,
@@ -2857,7 +2858,7 @@
         "ECE": 0.3080597644585027,
         "Accuracy": 0.56625,
         "LogLoss": 1.2895669040307127,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 20,
@@ -2867,7 +2868,7 @@
         "ECE": 0.3264593632393372,
         "Accuracy": 0.54125,
         "LogLoss": 1.3917270691767119,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 21,
@@ -2877,7 +2878,7 @@
         "ECE": 0.2931739335650069,
         "Accuracy": 0.55625,
         "LogLoss": 1.1714128870394374,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 22,
@@ -2887,7 +2888,7 @@
         "ECE": 0.34314307882281564,
         "Accuracy": 0.49,
         "LogLoss": 1.2683857525294173,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 23,
@@ -2897,7 +2898,7 @@
         "ECE": 0.32468189955200444,
         "Accuracy": 0.53875,
         "LogLoss": 1.4096084368784423,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 24,
@@ -2907,7 +2908,7 @@
         "ECE": 0.2976467070585733,
         "Accuracy": 0.5625,
         "LogLoss": 1.2504557093881978,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 25,
@@ -2917,7 +2918,7 @@
         "ECE": 0.31514629581614767,
         "Accuracy": 0.555,
         "LogLoss": 1.348799371972519,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 26,
@@ -2927,7 +2928,7 @@
         "ECE": 0.24295558674392043,
         "Accuracy": 0.61375,
         "LogLoss": 1.0249653090426205,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 27,
@@ -2937,7 +2938,7 @@
         "ECE": 0.24672175024556775,
         "Accuracy": 0.66,
         "LogLoss": 1.0489627398128847,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 28,
@@ -2947,7 +2948,7 @@
         "ECE": 0.24383697303228086,
         "Accuracy": 0.65375,
         "LogLoss": 1.0970979353770693,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 29,
@@ -2957,7 +2958,7 @@
         "ECE": 0.2433504820588284,
         "Accuracy": 0.66125,
         "LogLoss": 1.0837372886024068,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       },
       {
         "round": 30,
@@ -2967,53 +2968,53 @@
         "ECE": 0.25417041314208183,
         "Accuracy": 0.66125,
         "LogLoss": 1.2772840337762283,
-        "total_time_sec": 0.1448
+        "total_time_sec": 0.1408
       }
     ],
     "local_mlp": [
       {
         "site": 1,
-        "site_time_sec": 0.1329,
+        "site_time_sec": 0.1321,
         "AUROC": 0.677835729312763,
         "Brier": 0.225024965070942,
         "ECE": 0.1630918319037596,
         "Accuracy": 0.69,
         "LogLoss": 0.6798925397496386,
-        "total_time_sec": 0.2753
+        "total_time_sec": 0.2772
       },
       {
         "site": 2,
-        "site_time_sec": 0.0489,
+        "site_time_sec": 0.0486,
         "AUROC": 0.762001811594203,
         "Brier": 0.19665314743411647,
         "ECE": 0.14792913819998557,
         "Accuracy": 0.7025,
         "LogLoss": 0.5767569544653659,
-        "total_time_sec": 0.2753
+        "total_time_sec": 0.2772
       },
       {
         "site": 3,
-        "site_time_sec": 0.0573,
+        "site_time_sec": 0.0609,
         "AUROC": 0.7687514609630668,
         "Brier": 0.18659472555594483,
         "ECE": 0.11570008270372677,
         "Accuracy": 0.715,
         "LogLoss": 0.5510817029257307,
-        "total_time_sec": 0.2753
+        "total_time_sec": 0.2772
       },
       {
         "site": 4,
-        "site_time_sec": 0.0186,
+        "site_time_sec": 0.0182,
         "AUROC": 0.6497633239831697,
         "Brier": 0.5833285695436039,
         "ECE": 0.6138458712028378,
         "Accuracy": 0.31,
         "LogLoss": 2.0372831919024277,
-        "total_time_sec": 0.2753
+        "total_time_sec": 0.2772
       }
     ],
     "central_mlp": {
-      "total_time_sec": 0.4516,
+      "total_time_sec": 0.4846,
       "AUROC": 0.7494156147732585,
       "Brier": 0.17801217457203958,
       "ECE": 0.03293993420057357,
@@ -3022,44 +3023,44 @@
     },
     "fedavg_mlp": {
       "round": 30,
-      "round_time_sec": 0.0091,
+      "round_time_sec": 0.0099,
       "AUROC": 0.7493937003272556,
       "Brier": 0.17808495308357405,
       "ECE": 0.03306833803091029,
       "Accuracy": 0.7425,
       "LogLoss": 0.5299557650896624,
-      "total_time_sec": 0.4188
+      "total_time_sec": 0.4134
     },
     "fedavg_mlp_history": [
       {
         "round": 1,
-        "round_time_sec": 0.0111,
+        "round_time_sec": 0.01,
         "AUROC": 0.5169617812061711,
         "Brier": 0.22696513245789865,
         "ECE": 0.09649561080612448,
         "Accuracy": 0.67,
         "LogLoss": 0.6533139149217889,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 2,
-        "round_time_sec": 0.0099,
+        "round_time_sec": 0.0097,
         "AUROC": 0.5417908485273493,
         "Brier": 0.2214969385448204,
         "ECE": 0.07590205994196397,
         "Accuracy": 0.67375,
         "LogLoss": 0.6397314332744101,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 3,
-        "round_time_sec": 0.0106,
+        "round_time_sec": 0.0102,
         "AUROC": 0.5655753272557269,
         "Brier": 0.21682958167893765,
         "ECE": 0.06679983077147045,
         "Accuracy": 0.67625,
         "LogLoss": 0.6280039883371691,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 4,
@@ -3069,469 +3070,469 @@
         "ECE": 0.054652584669835094,
         "Accuracy": 0.6825,
         "LogLoss": 0.6177063322429379,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 5,
-        "round_time_sec": 0.0119,
+        "round_time_sec": 0.0095,
         "AUROC": 0.6074319191210845,
         "Brier": 0.20916470601394857,
         "ECE": 0.03951780004578938,
         "Accuracy": 0.68125,
         "LogLoss": 0.6085784971373782,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 6,
-        "round_time_sec": 0.0097,
+        "round_time_sec": 0.0099,
         "AUROC": 0.6256062996727443,
         "Brier": 0.20596855826168783,
         "ECE": 0.03539728772219168,
         "Accuracy": 0.68625,
         "LogLoss": 0.6004543708798051,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 7,
-        "round_time_sec": 0.0097,
+        "round_time_sec": 0.0099,
         "AUROC": 0.6418960378681627,
         "Brier": 0.20310638986175536,
         "ECE": 0.020044869601420708,
         "Accuracy": 0.68875,
         "LogLoss": 0.593181663906602,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 8,
-        "round_time_sec": 0.0094,
+        "round_time_sec": 0.0098,
         "AUROC": 0.6557532725572699,
         "Brier": 0.200540558054525,
         "ECE": 0.02224908578285209,
         "Accuracy": 0.68875,
         "LogLoss": 0.5866634673036242,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 9,
-        "round_time_sec": 0.0095,
+        "round_time_sec": 0.0097,
         "AUROC": 0.6670757363253857,
         "Brier": 0.19822817681218724,
         "ECE": 0.02315202890257553,
         "Accuracy": 0.69125,
         "LogLoss": 0.5807941973551102,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 10,
-        "round_time_sec": 0.0099,
+        "round_time_sec": 0.0104,
         "AUROC": 0.6779891304347825,
         "Brier": 0.19612593214737362,
         "ECE": 0.023003791649368832,
         "Accuracy": 0.6925,
         "LogLoss": 0.575465609203417,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 11,
-        "round_time_sec": 0.01,
+        "round_time_sec": 0.009,
         "AUROC": 0.686930224403927,
         "Brier": 0.194216734868686,
         "ECE": 0.018897441348849815,
         "Accuracy": 0.69625,
         "LogLoss": 0.5706312225870185,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 12,
-        "round_time_sec": 0.0096,
+        "round_time_sec": 0.0095,
         "AUROC": 0.6947609864422627,
         "Brier": 0.19248027906602963,
         "ECE": 0.011946357571944483,
         "Accuracy": 0.70125,
         "LogLoss": 0.5662390038979566,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 13,
-        "round_time_sec": 0.0092,
+        "round_time_sec": 0.0095,
         "AUROC": 0.7011307854137447,
         "Brier": 0.19091489560936659,
         "ECE": 0.009383857964272642,
         "Accuracy": 0.705,
         "LogLoss": 0.5622796538986509,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 14,
-        "round_time_sec": 0.0091,
+        "round_time_sec": 0.0088,
         "AUROC": 0.707617461430575,
         "Brier": 0.18949822787977577,
         "ECE": 0.013465493258353606,
         "Accuracy": 0.71125,
         "LogLoss": 0.5586969499143194,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 15,
-        "round_time_sec": 0.0094,
+        "round_time_sec": 0.0088,
         "AUROC": 0.7128477092099113,
         "Brier": 0.18820923819516175,
         "ECE": 0.01837078583379163,
         "Accuracy": 0.71875,
         "LogLoss": 0.5554387851931327,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 16,
-        "round_time_sec": 0.0094,
+        "round_time_sec": 0.0088,
         "AUROC": 0.7175447054698457,
         "Brier": 0.1870353841299079,
         "ECE": 0.020865585256102423,
         "Accuracy": 0.71875,
         "LogLoss": 0.5524715914699313,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 17,
-        "round_time_sec": 0.0089,
+        "round_time_sec": 0.0095,
         "AUROC": 0.7216500116877046,
         "Brier": 0.1859630460461979,
         "ECE": 0.021568748037019116,
         "Accuracy": 0.72125,
         "LogLoss": 0.5497594106069973,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 18,
-        "round_time_sec": 0.0095,
+        "round_time_sec": 0.0091,
         "AUROC": 0.7255873071528752,
         "Brier": 0.1849791363442402,
         "ECE": 0.022093875410094183,
         "Accuracy": 0.7225,
         "LogLoss": 0.5472744429666835,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 19,
-        "round_time_sec": 0.01,
+        "round_time_sec": 0.0097,
         "AUROC": 0.7291593618513325,
         "Brier": 0.18407853976562627,
         "ECE": 0.025764368844083427,
         "Accuracy": 0.72625,
         "LogLoss": 0.5450016857384097,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 20,
-        "round_time_sec": 0.0091,
+        "round_time_sec": 0.0095,
         "AUROC": 0.7319132772323517,
         "Brier": 0.18325528629765664,
         "ECE": 0.026827095916179104,
         "Accuracy": 0.725,
         "LogLoss": 0.5429247703154295,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 21,
-        "round_time_sec": 0.009,
+        "round_time_sec": 0.0093,
         "AUROC": 0.7345722300140253,
         "Brier": 0.18250760769627114,
         "ECE": 0.027426972832689328,
         "Accuracy": 0.72625,
         "LogLoss": 0.5410385026455699,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 22,
-        "round_time_sec": 0.0096,
+        "round_time_sec": 0.0106,
         "AUROC": 0.7370631720430108,
         "Brier": 0.18182878159892735,
         "ECE": 0.01996469405769452,
         "Accuracy": 0.72875,
         "LogLoss": 0.5393241671209814,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 23,
-        "round_time_sec": 0.0094,
+        "round_time_sec": 0.0095,
         "AUROC": 0.7389405095839177,
         "Brier": 0.18120859459772215,
         "ECE": 0.022815117190260983,
         "Accuracy": 0.7275,
         "LogLoss": 0.5377593695805205,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 24,
-        "round_time_sec": 0.0091,
+        "round_time_sec": 0.0099,
         "AUROC": 0.7410296867695184,
         "Brier": 0.18064076432388487,
         "ECE": 0.025370144923503875,
         "Accuracy": 0.735,
         "LogLoss": 0.5363282046506606,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 25,
-        "round_time_sec": 0.0093,
+        "round_time_sec": 0.0092,
         "AUROC": 0.7429362435717625,
         "Brier": 0.18011774366385133,
         "ECE": 0.03052989972608379,
         "Accuracy": 0.7375,
         "LogLoss": 0.5350134206657924,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 26,
-        "round_time_sec": 0.0098,
+        "round_time_sec": 0.0095,
         "AUROC": 0.7445871318373072,
         "Brier": 0.17963924570141684,
         "ECE": 0.03540897027742683,
         "Accuracy": 0.7375,
         "LogLoss": 0.5338140858461518,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 27,
-        "round_time_sec": 0.01,
+        "round_time_sec": 0.0091,
         "AUROC": 0.7460700093501637,
         "Brier": 0.17919878150427096,
         "ECE": 0.03807942602932079,
         "Accuracy": 0.74125,
         "LogLoss": 0.5327130755194249,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 28,
-        "round_time_sec": 0.0095,
+        "round_time_sec": 0.0097,
         "AUROC": 0.747034244974287,
         "Brier": 0.1787924779159252,
         "ECE": 0.03549354399858845,
         "Accuracy": 0.74125,
         "LogLoss": 0.5317021940157016,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 29,
-        "round_time_sec": 0.0094,
+        "round_time_sec": 0.0096,
         "AUROC": 0.7482249298737729,
         "Brier": 0.17842308584145086,
         "ECE": 0.03419368703315016,
         "Accuracy": 0.74375,
         "LogLoss": 0.530787686159861,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       },
       {
         "round": 30,
-        "round_time_sec": 0.0091,
+        "round_time_sec": 0.0099,
         "AUROC": 0.7493937003272556,
         "Brier": 0.17808495308357405,
         "ECE": 0.03306833803091029,
         "Accuracy": 0.7425,
         "LogLoss": 0.5299557650896624,
-        "total_time_sec": 0.4188
+        "total_time_sec": 0.4134
       }
     ],
     "fedprox_mlp": {
       "round": 30,
-      "round_time_sec": 0.0098,
+      "round_time_sec": 0.0097,
       "AUROC": 0.7492549088359045,
       "Brier": 0.17812476438820418,
       "ECE": 0.031494459229107194,
       "Accuracy": 0.7425,
       "LogLoss": 0.5300539290453251,
-      "total_time_sec": 0.4273
+      "total_time_sec": 0.4264
     },
     "fedprox_mlp_history": [
       {
         "round": 1,
-        "round_time_sec": 0.0103,
+        "round_time_sec": 0.0104,
         "AUROC": 0.5168668186068256,
         "Brier": 0.2269900732310784,
         "ECE": 0.09725226529520073,
         "Accuracy": 0.67,
         "LogLoss": 0.6533750383284702,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 2,
-        "round_time_sec": 0.01,
+        "round_time_sec": 0.0097,
         "AUROC": 0.5416301425899954,
         "Brier": 0.2215382558333806,
         "ECE": 0.07592779415814047,
         "Accuracy": 0.67375,
         "LogLoss": 0.639834417147661,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 3,
-        "round_time_sec": 0.0098,
+        "round_time_sec": 0.0096,
         "AUROC": 0.5652977442730248,
         "Brier": 0.21688294482599615,
         "ECE": 0.06682183759383004,
         "Accuracy": 0.67625,
         "LogLoss": 0.6281384033719166,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 4,
-        "round_time_sec": 0.0099,
+        "round_time_sec": 0.0093,
         "AUROC": 0.5873582865825153,
         "Brier": 0.21282257745940328,
         "ECE": 0.05390954786650131,
         "Accuracy": 0.6825,
         "LogLoss": 0.6178661751705236,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 5,
-        "round_time_sec": 0.0102,
+        "round_time_sec": 0.0095,
         "AUROC": 0.6070666783543712,
         "Brier": 0.20923403138739916,
         "ECE": 0.04026118196679119,
         "Accuracy": 0.68125,
         "LogLoss": 0.6087545892754332,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 6,
-        "round_time_sec": 0.0096,
+        "round_time_sec": 0.0098,
         "AUROC": 0.6251314866760168,
         "Brier": 0.2060431611970327,
         "ECE": 0.03461659965330464,
         "Accuracy": 0.68625,
         "LogLoss": 0.6006438968269875,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 7,
-        "round_time_sec": 0.01,
+        "round_time_sec": 0.0096,
         "AUROC": 0.6414723585787753,
         "Brier": 0.20318437226774771,
         "ECE": 0.02074243973743649,
         "Accuracy": 0.68875,
         "LogLoss": 0.5933798760843662,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 8,
-        "round_time_sec": 0.0099,
+        "round_time_sec": 0.0105,
         "AUROC": 0.655351507713885,
         "Brier": 0.2006205844077421,
         "ECE": 0.02194362130319797,
         "Accuracy": 0.68875,
         "LogLoss": 0.5868667216924198,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 9,
-        "round_time_sec": 0.01,
+        "round_time_sec": 0.0105,
         "AUROC": 0.666812762973352,
         "Brier": 0.198309197115954,
         "ECE": 0.023173446057914736,
         "Accuracy": 0.69125,
         "LogLoss": 0.5809997014403336,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 10,
-        "round_time_sec": 0.0093,
+        "round_time_sec": 0.0111,
         "AUROC": 0.6775727559607293,
         "Brier": 0.1962072284177719,
         "ECE": 0.022716814802669145,
         "Accuracy": 0.6925,
         "LogLoss": 0.5756717419595064,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 11,
-        "round_time_sec": 0.0105,
+        "round_time_sec": 0.0098,
         "AUROC": 0.6866891654978963,
         "Brier": 0.1942985451427454,
         "ECE": 0.018637328823733697,
         "Accuracy": 0.6975,
         "LogLoss": 0.5708384043884746,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 12,
-        "round_time_sec": 0.0101,
+        "round_time_sec": 0.0104,
         "AUROC": 0.6942642589995325,
         "Brier": 0.19256126402216503,
         "ECE": 0.012941237544864245,
         "Accuracy": 0.70125,
         "LogLoss": 0.5664439972375448,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 13,
-        "round_time_sec": 0.0097,
+        "round_time_sec": 0.0107,
         "AUROC": 0.700838592800374,
         "Brier": 0.19099420713479318,
         "ECE": 0.008440248687320294,
         "Accuracy": 0.705,
         "LogLoss": 0.5624805787746658,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 14,
-        "round_time_sec": 0.0101,
+        "round_time_sec": 0.0102,
         "AUROC": 0.7073179640018701,
         "Brier": 0.1895757134564705,
         "ECE": 0.013442044752301483,
         "Accuracy": 0.71125,
         "LogLoss": 0.5588932971047901,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 15,
-        "round_time_sec": 0.0098,
+        "round_time_sec": 0.011,
         "AUROC": 0.7125555165965405,
         "Brier": 0.18828478277639335,
         "ECE": 0.01827369000806017,
         "Accuracy": 0.71875,
         "LogLoss": 0.555630094967892,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 16,
-        "round_time_sec": 0.0098,
+        "round_time_sec": 0.0111,
         "AUROC": 0.7171940743338008,
         "Brier": 0.18710931592106456,
         "ECE": 0.020810251528238115,
         "Accuracy": 0.71875,
         "LogLoss": 0.5526586850725563,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 17,
-        "round_time_sec": 0.0099,
+        "round_time_sec": 0.0102,
         "AUROC": 0.7212920757363254,
         "Brier": 0.18603513561745422,
         "ECE": 0.02166695473149715,
         "Accuracy": 0.72125,
         "LogLoss": 0.5499420431563324,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 18,
-        "round_time_sec": 0.0102,
+        "round_time_sec": 0.0099,
         "AUROC": 0.7252658952781674,
         "Brier": 0.1850485977370103,
         "ECE": 0.020322743848911896,
         "Accuracy": 0.72,
         "LogLoss": 0.547450269473402,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 19,
-        "round_time_sec": 0.0097,
+        "round_time_sec": 0.0096,
         "AUROC": 0.7288452547919589,
         "Brier": 0.18414596400146813,
         "ECE": 0.02557319172537532,
         "Accuracy": 0.72625,
         "LogLoss": 0.5451721659798276,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 20,
@@ -3541,67 +3542,67 @@
         "ECE": 0.023882678201202708,
         "Accuracy": 0.725,
         "LogLoss": 0.5430880629099653,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 21,
-        "round_time_sec": 0.0098,
+        "round_time_sec": 0.0097,
         "AUROC": 0.7343019518466574,
         "Brier": 0.18256893830052512,
         "ECE": 0.027478934269200787,
         "Accuracy": 0.725,
         "LogLoss": 0.5411937042330086,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 22,
-        "round_time_sec": 0.0092,
+        "round_time_sec": 0.0091,
         "AUROC": 0.7369097709209911,
         "Brier": 0.18188673782773862,
         "ECE": 0.023969029954615143,
         "Accuracy": 0.73,
         "LogLoss": 0.5394711182231805,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 23,
-        "round_time_sec": 0.01,
+        "round_time_sec": 0.0094,
         "AUROC": 0.7387505843852268,
         "Brier": 0.1812640588576321,
         "ECE": 0.021368143266652633,
         "Accuracy": 0.72625,
         "LogLoss": 0.5378998677936793,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 24,
-        "round_time_sec": 0.0103,
+        "round_time_sec": 0.0101,
         "AUROC": 0.7407667134174848,
         "Brier": 0.18069352389605153,
         "ECE": 0.023628888098830802,
         "Accuracy": 0.73375,
         "LogLoss": 0.5364616535680369,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 25,
-        "round_time_sec": 0.0105,
+        "round_time_sec": 0.0095,
         "AUROC": 0.7427682328190743,
         "Brier": 0.18016827188603685,
         "ECE": 0.0300415782756031,
         "Accuracy": 0.7375,
         "LogLoss": 0.5351409046933749,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 26,
-        "round_time_sec": 0.0098,
+        "round_time_sec": 0.0092,
         "AUROC": 0.7443533777466106,
         "Brier": 0.17968762843322483,
         "ECE": 0.035171655923702146,
         "Accuracy": 0.7375,
         "LogLoss": 0.5339358444377754,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 27,
@@ -3611,350 +3612,350 @@
         "ECE": 0.03733993560387868,
         "Accuracy": 0.74,
         "LogLoss": 0.5328306601713337,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 28,
-        "round_time_sec": 0.0098,
+        "round_time_sec": 0.0095,
         "AUROC": 0.7469611968209444,
         "Brier": 0.17883701045282308,
         "ECE": 0.03650375736660197,
         "Accuracy": 0.74125,
         "LogLoss": 0.5318132559833906,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 29,
-        "round_time_sec": 0.01,
+        "round_time_sec": 0.0099,
         "AUROC": 0.7480642239364189,
         "Brier": 0.17846541078612474,
         "ECE": 0.03286663218563255,
         "Accuracy": 0.7425,
         "LogLoss": 0.5308926386253997,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       },
       {
         "round": 30,
-        "round_time_sec": 0.0098,
+        "round_time_sec": 0.0097,
         "AUROC": 0.7492549088359045,
         "Brier": 0.17812476438820418,
         "ECE": 0.031494459229107194,
         "Accuracy": 0.7425,
         "LogLoss": 0.5300539290453251,
-        "total_time_sec": 0.4273
+        "total_time_sec": 0.4264
       }
     ],
     "fedavg_dp_mlp": {
       "round": 30,
-      "round_time_sec": 0.0101,
+      "round_time_sec": 0.0093,
       "AUROC": 0.5673540497896212,
       "Brier": 0.30341984827211954,
       "ECE": 0.3041312399588727,
       "Accuracy": 0.69375,
       "LogLoss": 4.6970521543399775,
-      "total_time_sec": 0.4274,
+      "total_time_sec": 0.4171,
       "epsilon": 53.072182580974236
     },
     "fedavg_dp_mlp_history": [
       {
         "round": 1,
-        "round_time_sec": 0.0098,
+        "round_time_sec": 0.0103,
         "AUROC": 0.4883707339878448,
         "Brier": 0.6797364458352135,
         "ECE": 0.6825409630832067,
         "Accuracy": 0.31,
         "LogLoss": 5.172431104435971,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 2,
-        "round_time_sec": 0.0105,
+        "round_time_sec": 0.0104,
         "AUROC": 0.4827204593267883,
         "Brier": 0.6899980999400203,
         "ECE": 0.6899986320583249,
         "Accuracy": 0.31,
         "LogLoss": 10.732760289164675,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 3,
-        "round_time_sec": 0.0095,
+        "round_time_sec": 0.0107,
         "AUROC": 0.5698888207106124,
         "Brier": 0.580668826266549,
         "ECE": 0.5851582523651898,
         "Accuracy": 0.37875,
         "LogLoss": 4.999071954509299,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 4,
-        "round_time_sec": 0.0099,
+        "round_time_sec": 0.0102,
         "AUROC": 0.544289095371669,
         "Brier": 0.5765333435430934,
         "ECE": 0.5753563986414003,
         "Accuracy": 0.34625,
         "LogLoss": 4.024822979807248,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 5,
-        "round_time_sec": 0.0097,
+        "round_time_sec": 0.0093,
         "AUROC": 0.6032316503038804,
         "Brier": 0.2970435898031197,
         "ECE": 0.2856125979717308,
         "Accuracy": 0.68875,
         "LogLoss": 2.6197050114389397,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 6,
-        "round_time_sec": 0.0095,
+        "round_time_sec": 0.0094,
         "AUROC": 0.7073544880785414,
         "Brier": 0.33084771795214307,
         "ECE": 0.3294336254296884,
         "Accuracy": 0.6375,
         "LogLoss": 2.7772178582456233,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 7,
-        "round_time_sec": 0.0101,
+        "round_time_sec": 0.0097,
         "AUROC": 0.6557240532959328,
         "Brier": 0.29514371662771977,
         "ECE": 0.2954073930411846,
         "Accuracy": 0.68625,
         "LogLoss": 3.3487646984761734,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 8,
-        "round_time_sec": 0.0097,
+        "round_time_sec": 0.0096,
         "AUROC": 0.3941751402524544,
         "Brier": 0.464133959293662,
         "ECE": 0.46098540324817805,
         "Accuracy": 0.5175,
         "LogLoss": 5.422499798528496,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 9,
-        "round_time_sec": 0.0102,
+        "round_time_sec": 0.0096,
         "AUROC": 0.3351266654978962,
         "Brier": 0.4753083961012631,
         "ECE": 0.47999157002382,
         "Accuracy": 0.50875,
         "LogLoss": 6.05131717639383,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 10,
-        "round_time_sec": 0.0105,
+        "round_time_sec": 0.0099,
         "AUROC": 0.5314874064983638,
         "Brier": 0.38830490707161486,
         "ECE": 0.3852681593418068,
         "Accuracy": 0.6075,
         "LogLoss": 5.518747731795266,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 11,
-        "round_time_sec": 0.0098,
+        "round_time_sec": 0.0096,
         "AUROC": 0.6124284128097242,
         "Brier": 0.2826564384024382,
         "ECE": 0.2830286878243487,
         "Accuracy": 0.71625,
         "LogLoss": 4.142502904439751,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 12,
-        "round_time_sec": 0.0092,
+        "round_time_sec": 0.0095,
         "AUROC": 0.6123297978027115,
         "Brier": 0.2849981819009585,
         "ECE": 0.28372692930636756,
         "Accuracy": 0.71125,
         "LogLoss": 4.222865473301371,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 13,
-        "round_time_sec": 0.0099,
+        "round_time_sec": 0.0095,
         "AUROC": 0.5135759992987378,
         "Brier": 0.30971026800096263,
         "ECE": 0.3099611080601202,
         "Accuracy": 0.69,
         "LogLoss": 4.924175369372473,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 14,
-        "round_time_sec": 0.0096,
+        "round_time_sec": 0.0099,
         "AUROC": 0.5487669471715756,
         "Brier": 0.3680645882497218,
         "ECE": 0.3686802782398496,
         "Accuracy": 0.625,
         "LogLoss": 5.044680945929129,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 15,
-        "round_time_sec": 0.0093,
+        "round_time_sec": 0.0094,
         "AUROC": 0.5543989597942964,
         "Brier": 0.2844073118137818,
         "ECE": 0.2851398892740573,
         "Accuracy": 0.715,
         "LogLoss": 4.463034766993881,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 16,
-        "round_time_sec": 0.0094,
+        "round_time_sec": 0.01,
         "AUROC": 0.3423913043478261,
         "Brier": 0.5532454868740967,
         "ECE": 0.56305377872257,
         "Accuracy": 0.4275,
         "LogLoss": 7.217767107637872,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 17,
-        "round_time_sec": 0.0096,
+        "round_time_sec": 0.0094,
         "AUROC": 0.5298219086021506,
         "Brier": 0.33644687040995047,
         "ECE": 0.3369560398195617,
         "Accuracy": 0.65875,
         "LogLoss": 4.964869519631381,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 18,
-        "round_time_sec": 0.0105,
+        "round_time_sec": 0.0098,
         "AUROC": 0.5382005317905563,
         "Brier": 0.32724109740516133,
         "ECE": 0.32780911407385327,
         "Accuracy": 0.67125,
         "LogLoss": 4.878888076201997,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 19,
-        "round_time_sec": 0.0102,
+        "round_time_sec": 0.0094,
         "AUROC": 0.6755201028517999,
         "Brier": 0.2753707263183243,
         "ECE": 0.2764311561693823,
         "Accuracy": 0.7225,
         "LogLoss": 4.048633352627433,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 20,
-        "round_time_sec": 0.0105,
+        "round_time_sec": 0.0095,
         "AUROC": 0.5986917075736327,
         "Brier": 0.28339636369564764,
         "ECE": 0.283631640681258,
         "Accuracy": 0.71625,
         "LogLoss": 4.278055053688769,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 21,
-        "round_time_sec": 0.0103,
+        "round_time_sec": 0.0094,
         "AUROC": 0.591627951145395,
         "Brier": 0.40478197072015903,
         "ECE": 0.4078431485423998,
         "Accuracy": 0.5875,
         "LogLoss": 5.886430936772498,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 22,
-        "round_time_sec": 0.0103,
+        "round_time_sec": 0.0096,
         "AUROC": 0.6256720430107526,
         "Brier": 0.2713124085749916,
         "ECE": 0.2730976631350032,
         "Accuracy": 0.72625,
         "LogLoss": 3.967084100020877,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 23,
-        "round_time_sec": 0.0108,
+        "round_time_sec": 0.0092,
         "AUROC": 0.685487523375409,
         "Brier": 0.296447016801104,
         "ECE": 0.29663730689425016,
         "Accuracy": 0.70125,
         "LogLoss": 4.491629788877041,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 24,
-        "round_time_sec": 0.011,
+        "round_time_sec": 0.0094,
         "AUROC": 0.5598739188873306,
         "Brier": 0.41436659356646843,
         "ECE": 0.41735931013996747,
         "Accuracy": 0.58,
         "LogLoss": 6.028727388468942,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 25,
-        "round_time_sec": 0.0096,
+        "round_time_sec": 0.0099,
         "AUROC": 0.44593706171107994,
         "Brier": 0.6124297964655558,
         "ECE": 0.6140274484076732,
         "Accuracy": 0.3775,
         "LogLoss": 9.010346295795095,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 26,
-        "round_time_sec": 0.0107,
+        "round_time_sec": 0.0095,
         "AUROC": 0.5327840112201964,
         "Brier": 0.3960092045863396,
         "ECE": 0.39823889579755734,
         "Accuracy": 0.59875,
         "LogLoss": 5.85007646171033,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 27,
-        "round_time_sec": 0.0101,
+        "round_time_sec": 0.0098,
         "AUROC": 0.5984250818139318,
         "Brier": 0.32949178734240986,
         "ECE": 0.330935859904276,
         "Accuracy": 0.6625,
         "LogLoss": 4.733522759845536,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 28,
-        "round_time_sec": 0.0097,
+        "round_time_sec": 0.0094,
         "AUROC": 0.5031337657784012,
         "Brier": 0.4645582342966468,
         "ECE": 0.4653065285885205,
         "Accuracy": 0.5325,
         "LogLoss": 7.126094442411832,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 29,
-        "round_time_sec": 0.0094,
+        "round_time_sec": 0.0098,
         "AUROC": 0.6463519752220663,
         "Brier": 0.34414986245677226,
         "ECE": 0.3443853450184044,
         "Accuracy": 0.65125,
         "LogLoss": 4.959735758251087,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       },
       {
         "round": 30,
-        "round_time_sec": 0.0101,
+        "round_time_sec": 0.0093,
         "AUROC": 0.5673540497896212,
         "Brier": 0.30341984827211954,
         "ECE": 0.3041312399588727,
         "Accuracy": 0.69375,
         "LogLoss": 4.6970521543399775,
-        "total_time_sec": 0.4274
+        "total_time_sec": 0.4171
       }
     ]
   },
@@ -3962,47 +3963,47 @@
     "local_logreg": [
       {
         "site": 1,
-        "site_time_sec": 0.0052,
+        "site_time_sec": 0.0051,
         "AUROC": 0.7358505726975222,
         "Brier": 0.1842175411755973,
         "ECE": 0.08022097388779258,
         "Accuracy": 0.74625,
         "LogLoss": 0.5516893703796917,
-        "total_time_sec": 0.036
+        "total_time_sec": 0.0364
       },
       {
         "site": 2,
-        "site_time_sec": 0.005,
+        "site_time_sec": 0.0052,
         "AUROC": 0.7698837073398785,
         "Brier": 0.1873543693415116,
         "ECE": 0.11375245431802897,
         "Accuracy": 0.73625,
         "LogLoss": 0.5602603023781805,
-        "total_time_sec": 0.036
+        "total_time_sec": 0.0364
       },
       {
         "site": 3,
-        "site_time_sec": 0.0049,
+        "site_time_sec": 0.0051,
         "AUROC": 0.6229765661524077,
         "Brier": 0.21459660707580683,
         "ECE": 0.09639293521461532,
         "Accuracy": 0.6775,
         "LogLoss": 0.6194135471656862,
-        "total_time_sec": 0.036
+        "total_time_sec": 0.0364
       },
       {
         "site": 4,
-        "site_time_sec": 0.0049,
+        "site_time_sec": 0.0051,
         "AUROC": 0.7605262388966807,
         "Brier": 0.21816635201245954,
         "ECE": 0.1998718388145139,
         "Accuracy": 0.67875,
         "LogLoss": 0.6271003790582627,
-        "total_time_sec": 0.036
+        "total_time_sec": 0.0364
       }
     ],
     "central_logreg": {
-      "total_time_sec": 0.0081,
+      "total_time_sec": 0.0082,
       "AUROC": 0.7728859864422628,
       "Brier": 0.18637052882715233,
       "ECE": 0.12727802342205968,
@@ -4017,18 +4018,18 @@
       "ECE": 0.1278397055532345,
       "Accuracy": 0.7575,
       "LogLoss": 0.5593416353016932,
-      "total_time_sec": 0.134
+      "total_time_sec": 0.1378
     },
     "fedavg_logreg_history": [
       {
         "round": 1,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7731854838709677,
         "Brier": 0.24576814947989753,
         "ECE": 0.2511625219866426,
         "Accuracy": 0.7575,
         "LogLoss": 0.6846821521218871,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 2,
@@ -4038,37 +4039,37 @@
         "ECE": 0.24498812155127506,
         "Accuracy": 0.7575,
         "LogLoss": 0.6766501985703587,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 3,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7732147031323048,
         "Brier": 0.23795670164086727,
         "ECE": 0.2389765787247447,
         "Accuracy": 0.7575,
         "LogLoss": 0.6690288574709417,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 4,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7732073983169704,
         "Brier": 0.23436003259102992,
         "ECE": 0.23312698849198113,
         "Accuracy": 0.7575,
         "LogLoss": 0.6617964995396518,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 5,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.773163569424965,
         "Brier": 0.23095758737294098,
         "ECE": 0.22868778023818087,
         "Accuracy": 0.75875,
         "LogLoss": 0.6549323672871448,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 6,
@@ -4078,7 +4079,7 @@
         "ECE": 0.22315690173423203,
         "Accuracy": 0.75875,
         "LogLoss": 0.6484165991705302,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 7,
@@ -4088,77 +4089,77 @@
         "ECE": 0.21778194410286453,
         "Accuracy": 0.75875,
         "LogLoss": 0.6422302411476833,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 8,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.773112435717625,
         "Brier": 0.22182582806096351,
         "ECE": 0.21256007933422857,
         "Accuracy": 0.75875,
         "LogLoss": 0.6363552474836109,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 9,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7731051309022908,
         "Brier": 0.2191109259268559,
         "ECE": 0.20748817679475628,
         "Accuracy": 0.75875,
         "LogLoss": 0.6307744725623042,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 10,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.773112435717625,
         "Brier": 0.21654622944002447,
         "ECE": 0.20131280202908267,
         "Accuracy": 0.7575,
         "LogLoss": 0.6254716553265911,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 11,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.773112435717625,
         "Brier": 0.21412353418974037,
         "ECE": 0.19653043551384544,
         "Accuracy": 0.7575,
         "LogLoss": 0.6204313978164451,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 12,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7731270453482937,
         "Brier": 0.2118349365707384,
         "ECE": 0.1918873827340455,
         "Accuracy": 0.7575,
         "LogLoss": 0.6156391391141378,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 13,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7731343501636279,
         "Brier": 0.20967285572041294,
         "ECE": 0.18737984113232878,
         "Accuracy": 0.7575,
         "LogLoss": 0.611081125841172,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 14,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7730978260869565,
         "Brier": 0.20763004748834002,
         "ECE": 0.18300394515256355,
         "Accuracy": 0.7575,
         "LogLoss": 0.6067443801934455,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 15,
@@ -4168,67 +4169,67 @@
         "ECE": 0.17875579784435125,
         "Accuracy": 0.7575,
         "LogLoss": 0.6026166663519771,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 16,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7730466923796167,
         "Brier": 0.20387499443140966,
         "ECE": 0.17463149791066251,
         "Accuracy": 0.7575,
         "LogLoss": 0.5986864559695294,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 17,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.773002863487611,
         "Brier": 0.20214998479715449,
         "ECE": 0.17062716262844754,
         "Accuracy": 0.7575,
         "LogLoss": 0.59494289331007,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 18,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7729882538569426,
         "Brier": 0.20051870976153893,
         "ECE": 0.16673894706626902,
         "Accuracy": 0.7575,
         "LogLoss": 0.5913757605087455,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 19,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7729882538569426,
         "Brier": 0.1989756251694567,
         "ECE": 0.16296306000715363,
         "Accuracy": 0.7575,
         "LogLoss": 0.5879754433246864,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 20,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7729517297802712,
         "Brier": 0.1975155052186334,
         "ECE": 0.15929577696217231,
         "Accuracy": 0.7575,
         "LogLoss": 0.5847328976768561,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 21,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7729517297802712,
         "Brier": 0.196133430413214,
         "ECE": 0.1557334506332829,
         "Accuracy": 0.7575,
         "LogLoss": 0.5816396171833186,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 22,
@@ -4238,7 +4239,7 @@
         "ECE": 0.15227251915468015,
         "Accuracy": 0.7575,
         "LogLoss": 0.5786876018655752,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 23,
@@ -4248,67 +4249,67 @@
         "ECE": 0.14890951241181177,
         "Accuracy": 0.7575,
         "LogLoss": 0.5758693281308119,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 24,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7729444249649369,
         "Brier": 0.1924105989566884,
         "ECE": 0.1456410567074187,
         "Accuracy": 0.7575,
         "LogLoss": 0.5731777201047743,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 25,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7729079008882656,
         "Brier": 0.19129716922943607,
         "ECE": 0.14246387801522745,
         "Accuracy": 0.7575,
         "LogLoss": 0.5706061223554131,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 26,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7728348527349229,
         "Brier": 0.19024131051541807,
         "ECE": 0.13937480403477073,
         "Accuracy": 0.7575,
         "LogLoss": 0.5681482740213244,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 27,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7729079008882657,
         "Brier": 0.18923965577106805,
         "ECE": 0.1363707652355598,
         "Accuracy": 0.7575,
         "LogLoss": 0.5657982843383774,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 28,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7729079008882657,
         "Brier": 0.18828904902065646,
         "ECE": 0.133448795055641,
         "Accuracy": 0.7575,
         "LogLoss": 0.5635506095419061,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 29,
-        "round_time_sec": 0.0007,
+        "round_time_sec": 0.0008,
         "AUROC": 0.7729005960729314,
         "Brier": 0.1873865326266632,
         "ECE": 0.13060602939849242,
         "Accuracy": 0.7575,
         "LogLoss": 0.5614000311096567,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       },
       {
         "round": 30,
@@ -4318,7 +4319,7 @@
         "ECE": 0.1278397055532345,
         "Accuracy": 0.7575,
         "LogLoss": 0.5593416353016932,
-        "total_time_sec": 0.134
+        "total_time_sec": 0.1378
       }
     ],
     "fedprox_logreg": {
@@ -4329,7 +4330,7 @@
       "ECE": 0.12817083659057524,
       "Accuracy": 0.7575,
       "LogLoss": 0.5595862546471081,
-      "total_time_sec": 0.1363
+      "total_time_sec": 0.1397
     },
     "fedprox_logreg_history": [
       {
@@ -4340,7 +4341,7 @@
         "ECE": 0.25118781341815016,
         "Accuracy": 0.7575,
         "LogLoss": 0.6847154875869441,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 2,
@@ -4350,7 +4351,7 @@
         "ECE": 0.2450373881204213,
         "Accuracy": 0.7575,
         "LogLoss": 0.6767134656144538,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 3,
@@ -4360,7 +4361,7 @@
         "ECE": 0.2390485107916399,
         "Accuracy": 0.7575,
         "LogLoss": 0.6691189183170217,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 4,
@@ -4370,17 +4371,17 @@
         "ECE": 0.23322029345352308,
         "Accuracy": 0.7575,
         "LogLoss": 0.6619104688854824,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 5,
-        "round_time_sec": 0.0009,
+        "round_time_sec": 0.0008,
         "AUROC": 0.773163569424965,
         "Brier": 0.2310244969655707,
         "ECE": 0.2288011935399704,
         "Accuracy": 0.75875,
         "LogLoss": 0.6550675980271145,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 6,
@@ -4390,7 +4391,7 @@
         "ECE": 0.22328918856824323,
         "Accuracy": 0.75875,
         "LogLoss": 0.6485706678009814,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 7,
@@ -4400,7 +4401,7 @@
         "ECE": 0.21793190918485264,
         "Accuracy": 0.75875,
         "LogLoss": 0.6424009331307577,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 8,
@@ -4410,7 +4411,7 @@
         "ECE": 0.21272657014221444,
         "Accuracy": 0.75875,
         "LogLoss": 0.636540542794253,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 9,
@@ -4420,7 +4421,7 @@
         "ECE": 0.20767008671898304,
         "Accuracy": 0.75875,
         "LogLoss": 0.6309725315965129,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 10,
@@ -4430,7 +4431,7 @@
         "ECE": 0.20150907524197864,
         "Accuracy": 0.7575,
         "LogLoss": 0.6256808053072028,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 11,
@@ -4440,7 +4441,7 @@
         "ECE": 0.19674006067918348,
         "Accuracy": 0.7575,
         "LogLoss": 0.6206501197961377,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 12,
@@ -4450,7 +4451,7 @@
         "ECE": 0.1921094004014012,
         "Accuracy": 0.7575,
         "LogLoss": 0.615866055644055,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 13,
@@ -4460,7 +4461,7 @@
         "ECE": 0.18761334154427525,
         "Accuracy": 0.7575,
         "LogLoss": 0.6113149893474049,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 14,
@@ -4470,7 +4471,7 @@
         "ECE": 0.1832480676427336,
         "Accuracy": 0.7575,
         "LogLoss": 0.6069840620822046,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 15,
@@ -4480,7 +4481,7 @@
         "ECE": 0.17900972983499444,
         "Accuracy": 0.7575,
         "LogLoss": 0.6028611468471737,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 16,
@@ -4490,7 +4491,7 @@
         "ECE": 0.1748944735975982,
         "Accuracy": 0.7575,
         "LogLoss": 0.5989348146731451,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 17,
@@ -4500,7 +4501,7 @@
         "ECE": 0.17089846142924658,
         "Accuracy": 0.7575,
         "LogLoss": 0.595194300465585,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 18,
@@ -4510,7 +4511,7 @@
         "ECE": 0.16701789189625035,
         "Accuracy": 0.7575,
         "LogLoss": 0.5916294689405242,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 19,
@@ -4520,7 +4521,7 @@
         "ECE": 0.16324901543752954,
         "Accuracy": 0.7575,
         "LogLoss": 0.588230781021095,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 20,
@@ -4530,7 +4531,7 @@
         "ECE": 0.15958814730549142,
         "Accuracy": 0.7575,
         "LogLoss": 0.5849892609816049,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 21,
@@ -4540,7 +4541,7 @@
         "ECE": 0.1560316779932038,
         "Accuracy": 0.7575,
         "LogLoss": 0.5818964645576927,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 22,
@@ -4550,7 +4551,7 @@
         "ECE": 0.1525760814700432,
         "Accuracy": 0.7575,
         "LogLoss": 0.5789444481835422,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 23,
@@ -4560,7 +4561,7 @@
         "ECE": 0.1492179215188823,
         "Accuracy": 0.7575,
         "LogLoss": 0.5761257394691859,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 24,
@@ -4570,17 +4571,17 @@
         "ECE": 0.14595385643898154,
         "Accuracy": 0.7575,
         "LogLoss": 0.5734333089914684,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 25,
-        "round_time_sec": 0.0008,
+        "round_time_sec": 0.0009,
         "AUROC": 0.7729152057035997,
         "Brier": 0.19140693480486515,
         "ECE": 0.14278064235082752,
         "Accuracy": 0.7575,
         "LogLoss": 0.5708605434401305,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 26,
@@ -4590,7 +4591,7 @@
         "ECE": 0.13969513531272526,
         "Accuracy": 0.7575,
         "LogLoss": 0.5684012201346859,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 27,
@@ -4600,17 +4601,17 @@
         "ECE": 0.13669429243433037,
         "Accuracy": 0.7575,
         "LogLoss": 0.566049482907338,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 28,
-        "round_time_sec": 0.0008,
+        "round_time_sec": 0.0009,
         "AUROC": 0.7729152057035998,
         "Brier": 0.1883940816459566,
         "ECE": 0.13377517214965734,
         "Accuracy": 0.7575,
         "LogLoss": 0.5637998193312842,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 29,
@@ -4620,7 +4621,7 @@
         "ECE": 0.13093493379149532,
         "Accuracy": 0.7575,
         "LogLoss": 0.5616470392616273,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       },
       {
         "round": 30,
@@ -4630,7 +4631,7 @@
         "ECE": 0.12817083659057524,
         "Accuracy": 0.7575,
         "LogLoss": 0.5595862546471081,
-        "total_time_sec": 0.1363
+        "total_time_sec": 0.1397
       }
     ],
     "fedavg_dp_logreg": {
@@ -4641,19 +4642,19 @@
       "ECE": 0.2541908636859501,
       "Accuracy": 0.66125,
       "LogLoss": 1.278071371013964,
-      "total_time_sec": 0.1436,
+      "total_time_sec": 0.1468,
       "epsilon": 53.072182580974236
     },
     "fedavg_dp_logreg_history": [
       {
         "round": 1,
-        "round_time_sec": 0.0009,
+        "round_time_sec": 0.0011,
         "AUROC": 0.4749810074801309,
         "Brier": 0.2336585423242583,
         "ECE": 0.09978388361682036,
         "Accuracy": 0.63625,
         "LogLoss": 0.6609281772364235,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 2,
@@ -4663,7 +4664,7 @@
         "ECE": 0.20949870980205368,
         "Accuracy": 0.5875,
         "LogLoss": 0.6736514721588677,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 3,
@@ -4673,7 +4674,7 @@
         "ECE": 0.2988499463183849,
         "Accuracy": 0.46125,
         "LogLoss": 0.7644117370756439,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 4,
@@ -4683,7 +4684,7 @@
         "ECE": 0.37120032481965226,
         "Accuracy": 0.3925,
         "LogLoss": 0.9283790001903072,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 5,
@@ -4693,7 +4694,7 @@
         "ECE": 0.3143319942194927,
         "Accuracy": 0.45,
         "LogLoss": 0.9630642979583349,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 6,
@@ -4703,7 +4704,7 @@
         "ECE": 0.3814277106205738,
         "Accuracy": 0.4075,
         "LogLoss": 1.201172224976136,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 7,
@@ -4713,7 +4714,7 @@
         "ECE": 0.31121084373618446,
         "Accuracy": 0.5225,
         "LogLoss": 1.0686122083383582,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 8,
@@ -4723,7 +4724,7 @@
         "ECE": 0.21928871343770848,
         "Accuracy": 0.60125,
         "LogLoss": 0.8110255981446707,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 9,
@@ -4733,7 +4734,7 @@
         "ECE": 0.23720168139084374,
         "Accuracy": 0.5625,
         "LogLoss": 0.8258436139186839,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 10,
@@ -4743,7 +4744,7 @@
         "ECE": 0.27198811701001346,
         "Accuracy": 0.54375,
         "LogLoss": 0.9194043433608644,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 11,
@@ -4753,17 +4754,17 @@
         "ECE": 0.15185867034099956,
         "Accuracy": 0.63625,
         "LogLoss": 0.7029815808679583,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 12,
-        "round_time_sec": 0.0009,
+        "round_time_sec": 0.001,
         "AUROC": 0.5687675315568024,
         "Brier": 0.2902472720428038,
         "ECE": 0.2350748014765448,
         "Accuracy": 0.55375,
         "LogLoss": 0.831662871281192,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 13,
@@ -4773,7 +4774,7 @@
         "ECE": 0.3296081873523773,
         "Accuracy": 0.41125,
         "LogLoss": 0.8647375798755459,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 14,
@@ -4783,7 +4784,7 @@
         "ECE": 0.3723477443805116,
         "Accuracy": 0.46625,
         "LogLoss": 1.0875703533056524,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 15,
@@ -4793,7 +4794,7 @@
         "ECE": 0.4205702925247981,
         "Accuracy": 0.47,
         "LogLoss": 1.3690904329520646,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 16,
@@ -4803,7 +4804,7 @@
         "ECE": 0.3697721771060871,
         "Accuracy": 0.45125,
         "LogLoss": 1.0380312245920154,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 17,
@@ -4813,7 +4814,7 @@
         "ECE": 0.3401144343356228,
         "Accuracy": 0.505,
         "LogLoss": 1.2608108469907322,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 18,
@@ -4823,7 +4824,7 @@
         "ECE": 0.32925044365910516,
         "Accuracy": 0.54375,
         "LogLoss": 1.2694239040820174,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 19,
@@ -4833,7 +4834,7 @@
         "ECE": 0.3081387468659901,
         "Accuracy": 0.56625,
         "LogLoss": 1.2906181666786887,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 20,
@@ -4843,7 +4844,7 @@
         "ECE": 0.326573649722792,
         "Accuracy": 0.54125,
         "LogLoss": 1.3928549897526588,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 21,
@@ -4853,7 +4854,7 @@
         "ECE": 0.29332380563057336,
         "Accuracy": 0.55625,
         "LogLoss": 1.1726581633138469,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 22,
@@ -4863,7 +4864,7 @@
         "ECE": 0.3433879858548122,
         "Accuracy": 0.49,
         "LogLoss": 1.2699416492143942,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 23,
@@ -4873,7 +4874,7 @@
         "ECE": 0.32489490834494106,
         "Accuracy": 0.53875,
         "LogLoss": 1.4110620284155049,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 24,
@@ -4883,7 +4884,7 @@
         "ECE": 0.2983058638089803,
         "Accuracy": 0.5625,
         "LogLoss": 1.2517460612903397,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 25,
@@ -4893,7 +4894,7 @@
         "ECE": 0.3153195723873402,
         "Accuracy": 0.555,
         "LogLoss": 1.350167061033148,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 26,
@@ -4903,7 +4904,7 @@
         "ECE": 0.24305254109391378,
         "Accuracy": 0.6125,
         "LogLoss": 1.0260561197656468,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 27,
@@ -4913,7 +4914,7 @@
         "ECE": 0.2468079636604103,
         "Accuracy": 0.66,
         "LogLoss": 1.0497823631328393,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 28,
@@ -4923,7 +4924,7 @@
         "ECE": 0.24385876626697567,
         "Accuracy": 0.6525,
         "LogLoss": 1.0978462551965051,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 29,
@@ -4933,7 +4934,7 @@
         "ECE": 0.2433610108940323,
         "Accuracy": 0.66125,
         "LogLoss": 1.0845061582452282,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       },
       {
         "round": 30,
@@ -4943,53 +4944,53 @@
         "ECE": 0.2541908636859501,
         "Accuracy": 0.66125,
         "LogLoss": 1.278071371013964,
-        "total_time_sec": 0.1436
+        "total_time_sec": 0.1468
       }
     ],
     "local_mlp": [
       {
         "site": 1,
-        "site_time_sec": 0.0559,
+        "site_time_sec": 0.0549,
         "AUROC": 0.6535179990649836,
         "Brier": 0.2034052696944461,
         "ECE": 0.04985716423121813,
         "Accuracy": 0.6925,
         "LogLoss": 0.595895748010904,
-        "total_time_sec": 0.2401
+        "total_time_sec": 0.2373
       },
       {
         "site": 2,
-        "site_time_sec": 0.0554,
+        "site_time_sec": 0.0549,
         "AUROC": 0.6905607176250584,
         "Brier": 0.202042120794031,
         "ECE": 0.090678335555376,
         "Accuracy": 0.6925,
         "LogLoss": 0.5914519063939051,
-        "total_time_sec": 0.2401
+        "total_time_sec": 0.2373
       },
       {
         "site": 3,
-        "site_time_sec": 0.0555,
+        "site_time_sec": 0.055,
         "AUROC": 0.6555633473585788,
         "Brier": 0.1997647477538659,
         "ECE": 0.05324479470667401,
         "Accuracy": 0.71375,
         "LogLoss": 0.5909564577872629,
-        "total_time_sec": 0.2401
+        "total_time_sec": 0.2373
       },
       {
         "site": 4,
-        "site_time_sec": 0.0555,
+        "site_time_sec": 0.055,
         "AUROC": 0.7550257129499767,
         "Brier": 0.18416576801213735,
         "ECE": 0.0930474356715072,
         "Accuracy": 0.72875,
         "LogLoss": 0.5486397939668417,
-        "total_time_sec": 0.2401
+        "total_time_sec": 0.2373
       }
     ],
     "central_mlp": {
-      "total_time_sec": 0.519,
+      "total_time_sec": 0.5182,
       "AUROC": 0.7494156147732585,
       "Brier": 0.17801217457203958,
       "ECE": 0.03293993420057357,
@@ -4998,939 +4999,939 @@
     },
     "fedavg_mlp": {
       "round": 30,
-      "round_time_sec": 0.0088,
+      "round_time_sec": 0.0081,
       "AUROC": 0.7487947054698457,
       "Brier": 0.17824103053094617,
       "ECE": 0.024863096728320253,
       "Accuracy": 0.74125,
       "LogLoss": 0.5302738052264775,
-      "total_time_sec": 0.3839
+      "total_time_sec": 0.3671
     },
     "fedavg_mlp_history": [
       {
         "round": 1,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.008,
         "AUROC": 0.5166622837774661,
         "Brier": 0.22694554175535514,
         "ECE": 0.09602023262559263,
         "Accuracy": 0.67125,
         "LogLoss": 0.6532999236023178,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 2,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0079,
         "AUROC": 0.5410968910705938,
         "Brier": 0.2214859700027712,
         "ECE": 0.076014733852511,
         "Accuracy": 0.67375,
         "LogLoss": 0.6397536003072164,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 3,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0079,
         "AUROC": 0.564596482000935,
         "Brier": 0.21684419147691383,
         "ECE": 0.06844300694039195,
         "Accuracy": 0.68,
         "LogLoss": 0.6280834517310647,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 4,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.008,
         "AUROC": 0.5868542543244507,
         "Brier": 0.21280455310053464,
         "ECE": 0.055104103238050775,
         "Accuracy": 0.6775,
         "LogLoss": 0.6178479721505439,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 5,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.008,
         "AUROC": 0.6062558438522674,
         "Brier": 0.20924117122587493,
         "ECE": 0.04350744392140446,
         "Accuracy": 0.685,
         "LogLoss": 0.6087797516161225,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 6,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0079,
         "AUROC": 0.6244886629266013,
         "Brier": 0.20608120260037566,
         "ECE": 0.03324346964064456,
         "Accuracy": 0.685,
         "LogLoss": 0.6007261514687383,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 7,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.0079,
         "AUROC": 0.6407418770453482,
         "Brier": 0.20325347310349412,
         "ECE": 0.023963319376619135,
         "Accuracy": 0.69125,
         "LogLoss": 0.593520350298732,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 8,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.0079,
         "AUROC": 0.6544603202431042,
         "Brier": 0.20072323971953154,
         "ECE": 0.0184150940238977,
         "Accuracy": 0.69125,
         "LogLoss": 0.5870764591764772,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 9,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.008,
         "AUROC": 0.6658120032725572,
         "Brier": 0.19844588900092414,
         "ECE": 0.03151239946369891,
         "Accuracy": 0.68875,
         "LogLoss": 0.5812763881454694,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 10,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.0079,
         "AUROC": 0.6763163277232351,
         "Brier": 0.1963801994624196,
         "ECE": 0.019866773172475177,
         "Accuracy": 0.695,
         "LogLoss": 0.5760235175967587,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 11,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.008,
         "AUROC": 0.6852647265077139,
         "Brier": 0.19449879844971066,
         "ECE": 0.015160511214845834,
         "Accuracy": 0.695,
         "LogLoss": 0.5712465994377222,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 12,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.0082,
         "AUROC": 0.6928690392706873,
         "Brier": 0.19277972387068132,
         "ECE": 0.015173142850184016,
         "Accuracy": 0.7,
         "LogLoss": 0.5668912369773769,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 13,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.0079,
         "AUROC": 0.6996990416082282,
         "Brier": 0.19122146955739808,
         "ECE": 0.012309051373988564,
         "Accuracy": 0.69875,
         "LogLoss": 0.5629464215192449,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 14,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.008,
         "AUROC": 0.7060688405797101,
         "Brier": 0.18980790979801815,
         "ECE": 0.018221531051038197,
         "Accuracy": 0.70625,
         "LogLoss": 0.5593704805153966,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 15,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.008,
         "AUROC": 0.7113063931743806,
         "Brier": 0.18851873341762926,
         "ECE": 0.014909310954937277,
         "Accuracy": 0.71375,
         "LogLoss": 0.5561126761881254,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 16,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.008,
         "AUROC": 0.7162152290790089,
         "Brier": 0.18733921304915868,
         "ECE": 0.01893033108009154,
         "Accuracy": 0.715,
         "LogLoss": 0.5531347765775427,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 17,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.008,
         "AUROC": 0.7204885460495558,
         "Brier": 0.18625869698208916,
         "ECE": 0.024554100343782657,
         "Accuracy": 0.71625,
         "LogLoss": 0.5504041345041675,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 18,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0079,
         "AUROC": 0.7244988896680693,
         "Brier": 0.1852697159434993,
         "ECE": 0.02571985077731451,
         "Accuracy": 0.71625,
         "LogLoss": 0.5479085589001861,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 19,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.0079,
         "AUROC": 0.7276910939691443,
         "Brier": 0.18436418281154204,
         "ECE": 0.023843280939660903,
         "Accuracy": 0.72375,
         "LogLoss": 0.5456271459555522,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 20,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.008,
         "AUROC": 0.7306495441795231,
         "Brier": 0.18353302357377183,
         "ECE": 0.03344816865224823,
         "Accuracy": 0.7225,
         "LogLoss": 0.5435346501506388,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 21,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.008,
         "AUROC": 0.733476507713885,
         "Brier": 0.1827733100258527,
         "ECE": 0.020555160167810855,
         "Accuracy": 0.72375,
         "LogLoss": 0.5416228091574014,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 22,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.0079,
         "AUROC": 0.7361792893875643,
         "Brier": 0.18208089654045953,
         "ECE": 0.01836739482730023,
         "Accuracy": 0.72375,
         "LogLoss": 0.5398791720714796,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 23,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.0079,
         "AUROC": 0.738078541374474,
         "Brier": 0.1814479967428797,
         "ECE": 0.01446242636672555,
         "Accuracy": 0.7225,
         "LogLoss": 0.5382863059879859,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 24,
-        "round_time_sec": 0.0085,
+        "round_time_sec": 0.0079,
         "AUROC": 0.7401677185600748,
         "Brier": 0.18086690832272942,
         "ECE": 0.02066302749857808,
         "Accuracy": 0.72625,
         "LogLoss": 0.5368253802231223,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 25,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.008,
         "AUROC": 0.7419208742402992,
         "Brier": 0.18033538367689267,
         "ECE": 0.02180385985364855,
         "Accuracy": 0.7325,
         "LogLoss": 0.5354912519409117,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 26,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.008,
         "AUROC": 0.7434037517531557,
         "Brier": 0.17984449267149838,
         "ECE": 0.025471183441994356,
         "Accuracy": 0.73625,
         "LogLoss": 0.534261993582738,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 27,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0081,
         "AUROC": 0.7451349929873773,
         "Brier": 0.17939016594787,
         "ECE": 0.02932629344162895,
         "Accuracy": 0.73625,
         "LogLoss": 0.533126731170113,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 28,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.008,
         "AUROC": 0.7464133356708742,
         "Brier": 0.17897315399725902,
         "ECE": 0.02833925814957183,
         "Accuracy": 0.73625,
         "LogLoss": 0.5320874387519894,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 29,
-        "round_time_sec": 0.0084,
+        "round_time_sec": 0.0081,
         "AUROC": 0.7475601916783544,
         "Brier": 0.17859175409520986,
         "ECE": 0.03136800283211137,
         "Accuracy": 0.74,
         "LogLoss": 0.5311400750772135,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       },
       {
         "round": 30,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0081,
         "AUROC": 0.7487947054698457,
         "Brier": 0.17824103053094617,
         "ECE": 0.024863096728320253,
         "Accuracy": 0.74125,
         "LogLoss": 0.5302738052264775,
-        "total_time_sec": 0.3839
+        "total_time_sec": 0.3671
       }
     ],
     "fedprox_mlp": {
       "round": 30,
-      "round_time_sec": 0.0089,
+      "round_time_sec": 0.0083,
       "AUROC": 0.7486339995324918,
       "Brier": 0.1782819772290926,
       "ECE": 0.024536984042948858,
       "Accuracy": 0.74,
       "LogLoss": 0.5303742346282437,
-      "total_time_sec": 0.4096
+      "total_time_sec": 0.3792
     },
     "fedprox_mlp_history": [
       {
         "round": 1,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0087,
         "AUROC": 0.5165892356241234,
         "Brier": 0.2269702918715727,
         "ECE": 0.09602939957565501,
         "Accuracy": 0.67125,
         "LogLoss": 0.6533604645110006,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 2,
-        "round_time_sec": 0.0089,
+        "round_time_sec": 0.0084,
         "AUROC": 0.540994623655914,
         "Brier": 0.2215269731957269,
         "ECE": 0.07604284918885647,
         "Accuracy": 0.67375,
         "LogLoss": 0.6398554246929087,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 3,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0084,
         "AUROC": 0.5643627279102383,
         "Brier": 0.21689778420492153,
         "ECE": 0.06921430202091837,
         "Accuracy": 0.68,
         "LogLoss": 0.6282186413107036,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 4,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0083,
         "AUROC": 0.5864670991117344,
         "Brier": 0.21286757446769589,
         "ECE": 0.05686123041443791,
         "Accuracy": 0.6775,
         "LogLoss": 0.6180080793216689,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 5,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0084,
         "AUROC": 0.6058540790088827,
         "Brier": 0.20931079277387596,
         "ECE": 0.04349986269549622,
         "Accuracy": 0.68375,
         "LogLoss": 0.6089569832205055,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 6,
-        "round_time_sec": 0.0089,
+        "round_time_sec": 0.0084,
         "AUROC": 0.6241234221598878,
         "Brier": 0.20615523532731386,
         "ECE": 0.033212241122864826,
         "Accuracy": 0.685,
         "LogLoss": 0.6009145101932122,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 7,
-        "round_time_sec": 0.0091,
+        "round_time_sec": 0.0084,
         "AUROC": 0.6402743688639552,
         "Brier": 0.20333063897061276,
         "ECE": 0.023913969522889333,
         "Accuracy": 0.69,
         "LogLoss": 0.5937167338710188,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 8,
-        "round_time_sec": 0.0089,
+        "round_time_sec": 0.0084,
         "AUROC": 0.6540585553997195,
         "Brier": 0.2008019584268372,
         "ECE": 0.018111244725752977,
         "Accuracy": 0.69125,
         "LogLoss": 0.5872767289653101,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 9,
-        "round_time_sec": 0.0089,
+        "round_time_sec": 0.0083,
         "AUROC": 0.6654686769518467,
         "Brier": 0.19852576011942058,
         "ECE": 0.031234388274076492,
         "Accuracy": 0.69,
         "LogLoss": 0.5814794705399557,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 10,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0084,
         "AUROC": 0.6759803062178588,
         "Brier": 0.1964601242054414,
         "ECE": 0.018885969752021257,
         "Accuracy": 0.695,
         "LogLoss": 0.5762264720371482,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 11,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0086,
         "AUROC": 0.6849360098176718,
         "Brier": 0.1945794288212576,
         "ECE": 0.0168665281401428,
         "Accuracy": 0.695,
         "LogLoss": 0.571450853088822,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 12,
-        "round_time_sec": 0.0087,
+        "round_time_sec": 0.0085,
         "AUROC": 0.6925257129499767,
         "Brier": 0.19285881489176848,
         "ECE": 0.013940153465043266,
         "Accuracy": 0.70125,
         "LogLoss": 0.5670916756532676,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 13,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0083,
         "AUROC": 0.6994068489948575,
         "Brier": 0.19129965203468516,
         "ECE": 0.013301938205230035,
         "Accuracy": 0.69875,
         "LogLoss": 0.5631443431916151,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 14,
-        "round_time_sec": 0.009,
+        "round_time_sec": 0.0083,
         "AUROC": 0.7057985624123421,
         "Brier": 0.18988408318403963,
         "ECE": 0.01866940398676193,
         "Accuracy": 0.70625,
         "LogLoss": 0.5595632982559099,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 15,
-        "round_time_sec": 0.0091,
+        "round_time_sec": 0.0085,
         "AUROC": 0.7111164679756896,
         "Brier": 0.1885931402599121,
         "ECE": 0.014881254715599698,
         "Accuracy": 0.71375,
         "LogLoss": 0.556300758413926,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 16,
-        "round_time_sec": 0.0089,
+        "round_time_sec": 0.0085,
         "AUROC": 0.715944950911641,
         "Brier": 0.18741191180605254,
         "ECE": 0.020120528917694863,
         "Accuracy": 0.71375,
         "LogLoss": 0.5533184017888244,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 17,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0085,
         "AUROC": 0.7202913160355306,
         "Brier": 0.18632953786506726,
         "ECE": 0.024249877548954947,
         "Accuracy": 0.71625,
         "LogLoss": 0.5505832552149217,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 18,
-        "round_time_sec": 0.0087,
+        "round_time_sec": 0.0084,
         "AUROC": 0.7242651355773726,
         "Brier": 0.1853383366830151,
         "ECE": 0.024559615638137515,
         "Accuracy": 0.71625,
         "LogLoss": 0.5480812902761398,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 19,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0083,
         "AUROC": 0.7274500350631136,
         "Brier": 0.18443029643711972,
         "ECE": 0.022395360254472575,
         "Accuracy": 0.7225,
         "LogLoss": 0.5457932983284735,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 20,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0083,
         "AUROC": 0.7303135226741467,
         "Brier": 0.18359672682440842,
         "ECE": 0.03299951595866175,
         "Accuracy": 0.7225,
         "LogLoss": 0.5436948541878611,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 21,
-        "round_time_sec": 0.0105,
+        "round_time_sec": 0.0083,
         "AUROC": 0.7332135343618513,
         "Brier": 0.18283455774645868,
         "ECE": 0.02085743207897839,
         "Accuracy": 0.72375,
         "LogLoss": 0.5417767547107002,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 22,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0084,
         "AUROC": 0.7359893641888733,
         "Brier": 0.18213978089429972,
         "ECE": 0.019659731445423472,
         "Accuracy": 0.72375,
         "LogLoss": 0.5400271437460702,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 23,
-        "round_time_sec": 0.0087,
+        "round_time_sec": 0.0084,
         "AUROC": 0.7379543595137915,
         "Brier": 0.18150436770211079,
         "ECE": 0.013009819421154468,
         "Accuracy": 0.7225,
         "LogLoss": 0.5384277180290653,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 24,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0082,
         "AUROC": 0.7399412692847125,
         "Brier": 0.18092089576717046,
         "ECE": 0.019716174405489593,
         "Accuracy": 0.72625,
         "LogLoss": 0.5369605731081649,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 25,
-        "round_time_sec": 0.0096,
+        "round_time_sec": 0.0083,
         "AUROC": 0.7417236442262739,
         "Brier": 0.18038713624241354,
         "ECE": 0.02156170014727331,
         "Accuracy": 0.7325,
         "LogLoss": 0.5356206809553838,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 26,
-        "round_time_sec": 0.0089,
+        "round_time_sec": 0.0083,
         "AUROC": 0.7432357410004675,
         "Brier": 0.179894007654164,
         "ECE": 0.025231873581018492,
         "Accuracy": 0.73625,
         "LogLoss": 0.534385537743391,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 27,
-        "round_time_sec": 0.0094,
+        "round_time_sec": 0.0084,
         "AUROC": 0.7449158485273493,
         "Brier": 0.17943772056148,
         "ECE": 0.02913534562428291,
         "Accuracy": 0.73625,
         "LogLoss": 0.5332452292855071,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 28,
-        "round_time_sec": 0.0115,
+        "round_time_sec": 0.0083,
         "AUROC": 0.7463110682561944,
         "Brier": 0.17901859877982218,
         "ECE": 0.029084077526220286,
         "Accuracy": 0.73625,
         "LogLoss": 0.5322002945255998,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 29,
-        "round_time_sec": 0.0131,
+        "round_time_sec": 0.0083,
         "AUROC": 0.7474287050023376,
         "Brier": 0.17863471475684178,
         "ECE": 0.03211569273530504,
         "Accuracy": 0.74,
         "LogLoss": 0.5312461709086971,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       },
       {
         "round": 30,
-        "round_time_sec": 0.0089,
+        "round_time_sec": 0.0083,
         "AUROC": 0.7486339995324918,
         "Brier": 0.1782819772290926,
         "ECE": 0.024536984042948858,
         "Accuracy": 0.74,
         "LogLoss": 0.5303742346282437,
-        "total_time_sec": 0.4096
+        "total_time_sec": 0.3792
       }
     ],
     "fedavg_dp_mlp": {
       "round": 30,
-      "round_time_sec": 0.0086,
+      "round_time_sec": 0.0082,
       "AUROC": 0.5574158485273492,
       "Brier": 0.3217678122759011,
       "ECE": 0.3230497462528761,
       "Accuracy": 0.67625,
       "LogLoss": 4.927194229958441,
-      "total_time_sec": 0.3892,
+      "total_time_sec": 0.3689,
       "epsilon": 53.072182580974236
     },
     "fedavg_dp_mlp_history": [
       {
         "round": 1,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0082,
         "AUROC": 0.48833420991117343,
         "Brier": 0.679690823506055,
         "ECE": 0.6825063131168351,
         "Accuracy": 0.31,
         "LogLoss": 5.1689020669430645,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 2,
-        "round_time_sec": 0.0087,
+        "round_time_sec": 0.0081,
         "AUROC": 0.4796706989247312,
         "Brier": 0.6899985262982427,
         "ECE": 0.689998945673199,
         "Accuracy": 0.31,
         "LogLoss": 10.770598386253054,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 3,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0083,
         "AUROC": 0.5614006252921926,
         "Brier": 0.5843230947227426,
         "ECE": 0.5899578943562882,
         "Accuracy": 0.3775,
         "LogLoss": 5.141746907175122,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 4,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0082,
         "AUROC": 0.5323749415614774,
         "Brier": 0.6228129149139573,
         "ECE": 0.6239132870942661,
         "Accuracy": 0.32,
         "LogLoss": 4.851498580019547,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 5,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0082,
         "AUROC": 0.6031768641888733,
         "Brier": 0.29580852099007543,
         "ECE": 0.2833401083527993,
         "Accuracy": 0.68625,
         "LogLoss": 2.438556010169828,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 6,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0081,
         "AUROC": 0.7015690743338009,
         "Brier": 0.3361449724856949,
         "ECE": 0.33311516733599833,
         "Accuracy": 0.63,
         "LogLoss": 2.8189475517258633,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 7,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0082,
         "AUROC": 0.6538211489013558,
         "Brier": 0.2967287119202756,
         "ECE": 0.2982943173487407,
         "Accuracy": 0.6825,
         "LogLoss": 3.3598257972377494,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 8,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0083,
         "AUROC": 0.40427404745208045,
         "Brier": 0.4803123467802003,
         "ECE": 0.4762124537249881,
         "Accuracy": 0.49875,
         "LogLoss": 5.625377082272986,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 9,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0082,
         "AUROC": 0.33429756895745677,
         "Brier": 0.48644084583512304,
         "ECE": 0.4865533591791212,
         "Accuracy": 0.4925,
         "LogLoss": 6.2489777821536325,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 10,
-        "round_time_sec": 0.0087,
+        "round_time_sec": 0.0082,
         "AUROC": 0.5006939574567555,
         "Brier": 0.41327673248205005,
         "ECE": 0.4131629165574757,
         "Accuracy": 0.57125,
         "LogLoss": 5.759422335989422,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 11,
-        "round_time_sec": 0.0087,
+        "round_time_sec": 0.0081,
         "AUROC": 0.6135350923328659,
         "Brier": 0.27881686923401794,
         "ECE": 0.2792218502565862,
         "Accuracy": 0.71625,
         "LogLoss": 4.024707567860021,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 12,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0081,
         "AUROC": 0.6189844845722301,
         "Brier": 0.28639353887501673,
         "ECE": 0.28708527649196947,
         "Accuracy": 0.70625,
         "LogLoss": 4.094575801833591,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 13,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0082,
         "AUROC": 0.5252673562412343,
         "Brier": 0.30836003261381867,
         "ECE": 0.3086712079690336,
         "Accuracy": 0.69125,
         "LogLoss": 4.865988099660391,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 14,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0082,
         "AUROC": 0.5379813873305282,
         "Brier": 0.407059034452966,
         "ECE": 0.4080408703618381,
         "Accuracy": 0.58125,
         "LogLoss": 5.53547545141223,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 15,
-        "round_time_sec": 0.009,
+        "round_time_sec": 0.0083,
         "AUROC": 0.5376636278634876,
         "Brier": 0.29664929485133695,
         "ECE": 0.2982269767193963,
         "Accuracy": 0.7,
         "LogLoss": 4.446369758628821,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 16,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0083,
         "AUROC": 0.30379266012155215,
         "Brier": 0.5749844330558987,
         "ECE": 0.5780226455257409,
         "Accuracy": 0.4075,
         "LogLoss": 7.69480200987314,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 17,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0082,
         "AUROC": 0.49193548387096775,
         "Brier": 0.3533627749260005,
         "ECE": 0.35322976693017294,
         "Accuracy": 0.6425,
         "LogLoss": 5.341463502778803,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 18,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0082,
         "AUROC": 0.5282550257129499,
         "Brier": 0.3389188624181766,
         "ECE": 0.33970718173656267,
         "Accuracy": 0.66,
         "LogLoss": 5.210450237476988,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 19,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0083,
         "AUROC": 0.6516552711547452,
         "Brier": 0.2866482145473668,
         "ECE": 0.28777916396039843,
         "Accuracy": 0.70875,
         "LogLoss": 4.296928890199061,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 20,
-        "round_time_sec": 0.0087,
+        "round_time_sec": 0.0082,
         "AUROC": 0.5928989890135579,
         "Brier": 0.3064728403645806,
         "ECE": 0.3062689998177084,
         "Accuracy": 0.69,
         "LogLoss": 4.474941987136183,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 21,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0082,
         "AUROC": 0.5600565392706873,
         "Brier": 0.4438554239124649,
         "ECE": 0.44476966361974546,
         "Accuracy": 0.55375,
         "LogLoss": 6.768946120506899,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 22,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0082,
         "AUROC": 0.5757326729780271,
         "Brier": 0.2853224439032717,
         "ECE": 0.28617051813393113,
         "Accuracy": 0.715,
         "LogLoss": 4.41277053229188,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 23,
-        "round_time_sec": 0.0087,
+        "round_time_sec": 0.0082,
         "AUROC": 0.6898448457223001,
         "Brier": 0.30100747964556873,
         "ECE": 0.3028229725732946,
         "Accuracy": 0.695,
         "LogLoss": 4.547052729221963,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 24,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0082,
         "AUROC": 0.5092113721365124,
         "Brier": 0.5339202089131824,
         "ECE": 0.5337456373588597,
         "Accuracy": 0.45625,
         "LogLoss": 7.594163904109528,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 25,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0083,
         "AUROC": 0.42405913978494625,
         "Brier": 0.6598134612697127,
         "ECE": 0.6609480272269899,
         "Accuracy": 0.335,
         "LogLoss": 9.969981551511964,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 26,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0084,
         "AUROC": 0.4805472767648433,
         "Brier": 0.4855678564431251,
         "ECE": 0.48709533095922164,
         "Accuracy": 0.5125,
         "LogLoss": 7.065402746241037,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 27,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0081,
         "AUROC": 0.55890603085554,
         "Brier": 0.40426524637670874,
         "ECE": 0.4050551492206092,
         "Accuracy": 0.59125,
         "LogLoss": 5.8126774210054375,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 28,
-        "round_time_sec": 0.0087,
+        "round_time_sec": 0.0081,
         "AUROC": 0.5093282491818607,
         "Brier": 0.481606999899669,
         "ECE": 0.48304231967951483,
         "Accuracy": 0.515,
         "LogLoss": 7.19346578138387,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 29,
-        "round_time_sec": 0.0088,
+        "round_time_sec": 0.0083,
         "AUROC": 0.6247698983169705,
         "Brier": 0.4106186254284496,
         "ECE": 0.40943985430120766,
         "Accuracy": 0.585,
         "LogLoss": 5.862469628634649,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       },
       {
         "round": 30,
-        "round_time_sec": 0.0086,
+        "round_time_sec": 0.0082,
         "AUROC": 0.5574158485273492,
         "Brier": 0.3217678122759011,
         "ECE": 0.3230497462528761,
         "Accuracy": 0.67625,
         "LogLoss": 4.927194229958441,
-        "total_time_sec": 0.3892
+        "total_time_sec": 0.3689
       }
     ]
   }
