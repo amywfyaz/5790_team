@@ -416,6 +416,7 @@ def run_glore(
     if not HAS_GLORE:
         return None
     from federated_glore import split_sites
+    t_start = time.perf_counter()
     site_dfs = split_sites(train_df, n_sites=N_SITES, random_state=SEED, stratify_col=LABEL_COL)
     glore_sites = [
         GLORESite(i, s.reset_index(drop=True), FEATURE_COLS, LABEL_COL)
@@ -424,7 +425,8 @@ def run_glore(
     model = GLOREModel().fit(glore_sites)
     y_prob = model.predict_proba(test_df[FEATURE_COLS])
     y_true = test_df[LABEL_COL].to_numpy()
-    return compute_metrics(y_true, y_prob)
+    total_time = time.perf_counter() - t_start
+    return {"total_time_sec": round(total_time, 4), **compute_metrics(y_true, y_prob)}
 
 
 # ── Evaluation ────────────────────────────────────────────────────────────
@@ -576,7 +578,7 @@ def main() -> None:
             glore_res = run_glore(train_df, test_df)
             if glore_res is not None:
                 print(f"\n  >> GLORE (exact federated LR)")
-                print(f"      AUROC={glore_res['AUROC']:.4f}  Brier={glore_res['Brier']:.4f}")
+                print(f"      AUROC={glore_res['AUROC']:.4f}  Brier={glore_res['Brier']:.4f}  ({glore_res['total_time_sec']:.2f}s)")
                 split_res["glore"] = glore_res
 
         all_results[split_name] = split_res
